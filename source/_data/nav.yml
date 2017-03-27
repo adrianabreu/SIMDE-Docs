@@ -1,0 +1,114 @@
+- title: Inicio
+  items:
+  - id: index
+    title: Indice
+  - id: introduccion
+    title: Introducción
+- title: Interfaz
+  items:
+  - id: archivo
+    title: Menú archivo
+  - id: menu-ver
+    title: Menú ver
+  - id: menu-configurar
+    title: Menú configurar
+  - id: menu-ejecutar
+    title: Menú ejecutar
+  - id: menu-ventana
+    title: Menú Ventana
+  - id: menu-ayuda
+    title: Menú ayuda
+  - id: barra-herramientas-estandar
+    title: Barra de herramientas estándar
+  - id: barra-herramientas-ejecucion
+    title: Barra de herramientas Ejecución
+  - id: ventana-instrucciones
+    title: Ventana Instrucciones
+  - id: ventana-registros-memoria 
+    title: Ventana registros memoria
+  - id: ventana-simulacion-superescalar
+    title: Ventna simulación Superescalar 
+  - id: ventana-simulacion-vliw
+    title: Ventana simulación VLIW
+- title: Desarrollo
+  items: 
+  - id: fichero-codigo-secuencial
+    title: Fichero codigo secuencial
+  - id: ejemplo-codigo-secuencial
+    title: Ejemplo de código secuencial
+  - id: crear-codigo-vliw
+    title: Crear código VLIW
+  - id: cargar-codigo-vliw
+    title: Cargar código VLIW
+  - id: modificar-codigo-vliw
+    title: modificar-codigo-vliw
+  - id: consejos-creacion-codigo
+    title: Consejos creación Código VLIW
+- title: Configuración
+  items:
+  - id: configurar-superescalar
+    title: Configurar párametros superescalar
+  - id: configurar-vliw
+    title: Configurar párametros vliw
+- title: Estructuras comunes
+  items:
+   - id: juegos-de-instrucciones
+     title: Juegos de instrucciones
+   - id: memoria
+     title: Memoria
+   - id: modos-de-direccionamiento
+     title: Modos de direccionamiento
+   - id: registros-proposito-general
+     title: Registros de proposito general
+   - id: registros-punto-flotante
+     title: Registros de punto flotante
+   - id: unidades-funcionales
+     title: Unidades funcionales
+- title: Máquina superescalar
+  items:
+  - id: maquina-superescalar
+    title: Máquina superescalar
+  - id: unidad-de-prebusqueda
+    title: Unidad de prebúsqueda
+  - id: decodificador
+    title: Decodificador
+  - id: rob-gpr
+    title: ROB <-> GPR
+  - id: rob-fpr
+    title: ROB <-> FPR
+  - id: prediccion-de-salto
+    title: Prediccion de salto
+  - id: reorder-buffer
+    title: Reorder Buffer
+  - id: estaciones-de-reserva
+    title: Estaciones de reserva
+  - id: calculo-de-direcciones
+    title: Cálculo de direcciones 
+- title: Máquina VLIW 
+  items:
+  - id: maquina-vliw 
+    title: Máquina VLIW 
+  - id: nat 
+    title: Nat (Not a Thing) 
+  - id: registros-de-predicado 
+    title: Registros de predicado
+  - id: predicacion-de-operaciones
+    title: Predicación de operaicones 
+- title: Acerca de 
+  items:
+  - id: teclado
+    title: Teclado
+  - id: referencias
+    title: Referencias
+  - id: historial
+    title: Historial
+  - id: autor
+    title: Contactar con el autor
+- title: Extra
+  items:
+  - id: bloquebasico
+    title: Bloques bloques
+  - id: desenrolladodebucles
+    title: Desenrollado de bucles 
+  - id: softwarepipelining
+    title: Software Pipelining

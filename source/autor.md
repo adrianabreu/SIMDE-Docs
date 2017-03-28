@@ -2,8 +2,8 @@
 layout: default
 id: autor
 title: Contactar con el autor
-prev: historial.html
-next: bloquebasico.html
+prev: referencias.html
+next: bloques-basicos.html
 ---
 
 Como cualquier programa, SIMDE puede contener errores. Normalmente cuando uno hace un programa no piensa en darle a esa secuencia de pasos que a ti, querido usuario, te ha dado por probar.

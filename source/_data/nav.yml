@@ -4,9 +4,11 @@
     title: Indice
   - id: introduccion
     title: Introducción
+  - id: instruction-level-paralelism
+    title: ILP
 - title: Interfaz
   items:
-  - id: archivo
+  - id: menu-archivo
     title: Menú archivo
   - id: menu-ver
     title: Menú ver
@@ -15,52 +17,40 @@
   - id: menu-ejecutar
     title: Menú ejecutar
   - id: menu-ventana
-    title: Menú Ventana
+    title: Menú ventana
   - id: menu-ayuda
     title: Menú ayuda
-  - id: barra-herramientas-estandar
+  - id: barra-de-herramientas-estandar
     title: Barra de herramientas estándar
-  - id: barra-herramientas-ejecucion
-    title: Barra de herramientas Ejecución
-  - id: ventana-instrucciones
-    title: Ventana Instrucciones
+  - id: barra-de-herramientas-de-ejecucion
+    title: Barra de herramientas de ejecución
+  - id: ventana-de-instrucciones
+    title: Ventana de instrucciones
+  - id: configurar-parametros-superescalar
+    title: Configurar párametros superescalar
   - id: ventana-registros-memoria 
     title: Ventana registros memoria
-  - id: ventana-simulacion-superescalar
-    title: Ventna simulación Superescalar 
-  - id: ventana-simulacion-vliw
-    title: Ventana simulación VLIW
+  - id: ventana-simulacion
+    title: Ventana de simulación
 - title: Desarrollo
   items: 
-  - id: fichero-codigo-secuencial
+  - id: fichero-de-codigo-secuencial
     title: Fichero codigo secuencial
-  - id: ejemplo-codigo-secuencial
+  - id: ejemplo-de-codigo-secuencial
     title: Ejemplo de código secuencial
-  - id: crear-codigo-vliw
-    title: Crear código VLIW
-  - id: cargar-codigo-vliw
-    title: Cargar código VLIW
-  - id: modificar-codigo-vliw
-    title: modificar-codigo-vliw
-  - id: consejos-creacion-codigo
-    title: Consejos creación Código VLIW
-- title: Configuración
+- title: Caracterísitcas comunes
   items:
-  - id: configurar-superescalar
-    title: Configurar párametros superescalar
-  - id: configurar-vliw
-    title: Configurar párametros vliw
-- title: Estructuras comunes
-  items:
-   - id: juegos-de-instrucciones
-     title: Juegos de instrucciones
+   - id: estructura-comun
+     title: Estructura común
+   - id: juego-de-instrucciones
+     title: Juego de instrucciones
    - id: memoria
      title: Memoria
    - id: modos-de-direccionamiento
      title: Modos de direccionamiento
-   - id: registros-proposito-general
-     title: Registros de proposito general
-   - id: registros-punto-flotante
+   - id: registros-de-proposito-general
+     title: Registros de propósito general
+   - id: registros-de-punto-flotante
      title: Registros de punto flotante
    - id: unidades-funcionales
      title: Unidades funcionales
@@ -72,11 +62,9 @@
     title: Unidad de prebúsqueda
   - id: decodificador
     title: Decodificador
-  - id: rob-gpr
-    title: ROB <-> GPR
-  - id: rob-fpr
-    title: ROB <-> FPR
-  - id: prediccion-de-salto
+  - id: rob-registros
+    title: ROB <-> Registros
+  - id: tabla-de-prediccion-de-salto
     title: Prediccion de salto
   - id: reorder-buffer
     title: Reorder Buffer
@@ -84,20 +72,8 @@
     title: Estaciones de reserva
   - id: calculo-de-direcciones
     title: Cálculo de direcciones 
-- title: Máquina VLIW 
-  items:
-  - id: maquina-vliw 
-    title: Máquina VLIW 
-  - id: nat 
-    title: Nat (Not a Thing) 
-  - id: registros-de-predicado 
-    title: Registros de predicado
-  - id: predicacion-de-operaciones
-    title: Predicación de operaicones 
 - title: Acerca de 
   items:
-  - id: teclado
-    title: Teclado
   - id: referencias
     title: Referencias
   - id: historial
@@ -106,9 +82,9 @@
     title: Contactar con el autor
 - title: Extra
   items:
-  - id: bloquebasico
-    title: Bloques bloques
-  - id: desenrolladodebucles
+  - id: bloques-basicos
+    title: Bloques básicos
+  - id: desenrollado-de-bucles
     title: Desenrollado de bucles 
-  - id: softwarepipelining
+  - id: software-pipelining
     title: Software Pipelining

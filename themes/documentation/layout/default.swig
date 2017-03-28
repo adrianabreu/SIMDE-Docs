@@ -10,7 +10,7 @@
 <body>
   <div class='menu'>
     <div class='logo'>
-      Documentation
+      SIMDE
     </div>
     <nav class='menu-nav'>
       {% for section in site.data.nav %}

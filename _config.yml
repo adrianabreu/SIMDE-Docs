@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo documentation
-subtitle: Hexo documentation article
-description: Hexo documentation article
-author: Bruno Mota
+title: SIMDE
+subtitle: Documentación de SIMDE
+description: 
+author: Adrián Abreu
 language: en
 timezone: GMT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://sitepoint-editors.github.io/hexo-documentation
-root: /hexo-documentation/
+root: /simde-documentation/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

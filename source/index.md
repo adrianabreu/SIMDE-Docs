@@ -1,12 +1,10 @@
 ---
 layout: default
 id: index
-title: What is it?
-next: how-it-works.html
+title: Bienvenido
+next: introduccion.html
 ---
 
-This is our index markdown file
+Posible mensaje de bienvenida, quizas indice de las partes
+más importantes...
 
-- one
-- two
-- three

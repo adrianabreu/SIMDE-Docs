@@ -1,7 +1,7 @@
 ---
 layout: default
-id: bloquebasico
-title: Bloque básico
+id: bloques-basicos
+title: Bloques básicos
 prev: autor.html
 next: desenrollado-de-bucles.html
 ---

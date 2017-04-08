@@ -26,9 +26,6 @@
         </ul>
       {% endfor %}
     </nav>
-    <a class='footer' href='https://github.com/sitepoint-editors/hexo-documentation'>
-      Project on github
-    </a>
   </div>
   <div class='page'>
     <div class='page-content'>

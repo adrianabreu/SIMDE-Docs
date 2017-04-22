@@ -1,1 +1,1 @@
-https://www.sitepoint.com/project-documentation-hexo/
+http://demosimde.azurewebsites.net/simde-documentation/

@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: configurar-parametros-vliw
 title: Ventana de instrucciones
-prev: configurar-parametros-superescalar.html
-next: configurar-parametros-vliw.html
+prev: es/configurar-parametros-superescalar.html
+next: es/configurar-parametros-vliw.html
 ---
 
 {bmc bm1.BMP} Vaya a Configurar=>Parámetros VLIW.

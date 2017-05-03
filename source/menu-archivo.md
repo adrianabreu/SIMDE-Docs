@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: menu-archivo
 title: Menú archivo
-prev: instruction-level-paralelism.html
-next: menu-ver.html
+prev: es/instruction-level-paralelism.html
+next: es/menu-ver.html
 ---
 
 ## Abrir...

@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: introduccion
 title: Introducción
-prev: index.html
-next: instruction-level-paralelism.html
+prev: es/index.html
+next: es/instruction-level-paralelism.html
 ---
 
 ## ¿Qué es SIMDE?

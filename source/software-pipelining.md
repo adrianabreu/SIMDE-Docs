@@ -1,8 +1,9 @@
 ---
 layout: default
+lang: es
 id: software-pipelining
 title: Software Pipelining
-prev: desenrollado-de-bucles.html
+prev: es/desenrollado-de-bucles.html
 ---
 
 Técnica de reorganización de bucles, de tal manera que en cada iteración se construye con operaciones elegidas de distintas iteraciones del bucle original.

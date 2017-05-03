@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: unidades-funcionales
 title: Unidades funcionales
-prev: registros-de-punto-flotante.html
-next: maquina-superescalar.html
+prev: es/registros-de-punto-flotante.html
+next: es/maquina-superescalar.html
 ---
 
 Las Unidades Funcionales (UF) son las únidades básicas de ejecución de la máquina.

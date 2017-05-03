@@ -1,90 +1,135 @@
-- title: Inicio
+- titleEs: Inicio
+  titleEn: Inicio
   items:
   - id: index
-    title: Indice
+    titleEs: Indice
+    titleEn: Index
   - id: introduccion
-    title: Introducción
+    titleEs: Introducción
+    titleEn: Introduction
   - id: instruction-level-paralelism
-    title: ILP
-- title: Interfaz
+    titleEs: ILP
+    titleEn: ILP
+- titleEs: Interfaz
+  titleEn: Interface
   items:
   - id: menu-archivo
-    title: Menú archivo
+    titleEs: Menú archivo
+    titleEn: File menu
   - id: menu-ver
-    title: Menú ver
+    titleEs: Menú ver
+    titleEn: View menu
   - id: menu-configurar
-    title: Menú configurar
+    titleEs: Menú configurar
+    titleEn: Config menu
   - id: menu-ejecutar
-    title: Menú ejecutar
+    titleEs: Menú ejecutar
+    titleEn: Execute menu
   - id: menu-ventana
-    title: Menú ventana
+    titleEs: Menú ventana
+    titleEn: Window menu
   - id: menu-ayuda
-    title: Menú ayuda
+    titleEs: Menú ayuda
+    titleEn: Help menu
   - id: barra-de-herramientas-estandar
-    title: Barra de herramientas estándar
+    titleEs: Barra de herramientas estándar
+    titleEn: Barra de herramientas estándar
   - id: barra-de-herramientas-de-ejecucion
-    title: Barra de herramientas de ejecución
+    titleEs: Barra de herramientas de ejecución
+    titleEn: Barra de herramientas de ejecución
   - id: ventana-de-instrucciones
-    title: Ventana de instrucciones
+    titleEs: Ventana de instrucciones
+    titleEn: Ventana de instrucciones
   - id: configurar-parametros-superescalar
-    title: Configurar párametros superescalar
+    titleEs: Configurar párametros superescalar
+    titleEn: Configurar párametros superescalar
   - id: ventana-registros-memoria 
-    title: Ventana registros memoria
+    titleEs: Ventana registros memoria
+    titleEn: Ventana registros memoria
   - id: ventana-simulacion
-    title: Ventana de simulación
-- title: Desarrollo
+    titleEs: Ventana de simulación
+    titleEn: Ventana de simulación
+- titleEs: Desarrollo
+  titleEn: Desarrollo
   items: 
   - id: fichero-de-codigo-secuencial
-    title: Fichero codigo secuencial
+    titleEs: Fichero codigo secuencial
+    titleEn: Fichero codigo secuencial
   - id: ejemplo-de-codigo-secuencial
-    title: Ejemplo de código secuencial
-- title: Caracterísitcas comunes
+    titleEs: Ejemplo de código secuencial
+    titleEn: Ejemplo de código secuencial
+- titleEs: Caracterísitcas comunes
+  titleEn: Caracterísitcas comunes
   items:
    - id: estructura-comun
-     title: Estructura común
+     titleEs: Estructura común
+     titleEn: Estructura común
    - id: juego-de-instrucciones
-     title: Juego de instrucciones
+     titleEs: Juego de instrucciones
+     titleEn: Juego de instrucciones
    - id: memoria
-     title: Memoria
+     titleEs: Memoria
+     titleEn: Memoria
    - id: modos-de-direccionamiento
-     title: Modos de direccionamiento
+     titleEs: Modos de direccionamiento
+     titleEn: Modos de direccionamiento
    - id: registros-de-proposito-general
-     title: Registros de propósito general
+     titleEs: Registros de propósito general
+     titleEn: Registros de propósito general
    - id: registros-de-punto-flotante
-     title: Registros de punto flotante
+     titleEs: Registros de punto flotante
+     titleEn: Registros de punto flotante
    - id: unidades-funcionales
-     title: Unidades funcionales
-- title: Máquina superescalar
+     titleEs: Unidades funcionales
+     titleEn: Unidades funcionales
+- titleEs: Máquina superescalar
+  titleEn: Máquina superescalar
   items:
   - id: maquina-superescalar
-    title: Máquina superescalar
+    titleEs: Máquina superescalar
+    titleEn: Máquina superescalar
   - id: unidad-de-prebusqueda
-    title: Unidad de prebúsqueda
+    titleEs: Unidad de prebúsqueda
+    titleEn: Unidad de prebúsqueda
   - id: decodificador
-    title: Decodificador
+    titleEs: Decodificador
+    titleEn: Decodificador
   - id: rob-registros
-    title: ROB <-> Registros
+    titleEs: ROB <-> Registros
+    titleEn: ROB <-> Registros
   - id: tabla-de-prediccion-de-salto
-    title: Prediccion de salto
+    titleEs: Prediccion de salto
+    titleEn: Prediccion de salto
   - id: reorder-buffer
-    title: Reorder Buffer
+    titleEs: Reorder Buffer
+    titleEn: Reorder Buffer
   - id: estaciones-de-reserva
-    title: Estaciones de reserva
+    titleEs: Estaciones de reserva
+    titleEn: Estaciones de reserva
   - id: calculo-de-direcciones
-    title: Cálculo de direcciones 
-- title: Acerca de 
+    titleEs: Cálculo de direcciones 
+    titleEn: Cálculo de direcciones 
+- titleEs: Acerca de 
+  titleEn: Acerca de 
   items:
   - id: referencias
-    title: Referencias
+    titleEs: Referencias
+    titleEn: Referencias
   - id: historial
-    title: Historial
+    titleEs: Historial
+    titleEn: Historial
   - id: autor
-    title: Contactar con el autor
-- title: Extra
+    titleEs: Contactar con el autor
+    titleEn: Contactar con el autor
+- titleEs: Extra
+  titleEn: Extra
   items:
   - id: bloques-basicos
-    title: Bloques básicos
+    titleEs: Bloques básicos
+    titleEn: Bloques básicos
   - id: desenrollado-de-bucles
-    title: Desenrollado de bucles 
+    titleEs: Desenrollado de bucles 
+    titleEn: Desenrollado de bucles 
   - id: software-pipelining
-    title: Software Pipelining
+    titleEs: Software Pipelining
+    titleEn: Software Pipelining

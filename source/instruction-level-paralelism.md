@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: instruction-level-paralelism
 title: ILP
-prev: introduccion.html
-next: menu-archivo.html
+prev: es/introduccion.html
+next: es/menu-archivo.html
 ---
 
 El Paralelismo a Nivel de Instrucción es la capacidad de un conjunto de instrucciones de poder ser ejecutadas en paralelo.

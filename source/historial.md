@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: historial
 title: Historial
-prev: how-it-works.html
-next: using.html
+prev: es/how-it-works.html
+next: es/using.html
 ---
 
 ### v1.1 06/07/2004

@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: barra-de-herramientas-de-ejecucion
 title: Barra de herramientas de ejecución
-prev: barra-de-herramientas-estandar.html
-next: ventana-de-instrucciones.html
+prev: es/barra-de-herramientas-estandar.html
+next: es/ventana-de-instrucciones.html
 ---
 
 Contiene las herramientas que permiten llevar a cabo las simulaciones.

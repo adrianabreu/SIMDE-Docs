@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: modos-de-direccionamiento
 title: Modos de direccionamiento
-prev: memoria.html
-next: registros-de-proposito-general.html
+prev: es/memoria.html
+next: es/registros-de-proposito-general.html
 ---
 
 El repertorio de instrucciones de la máquina sólo permite direccionamiento de memoria indexado de la forma Inm(Rn).

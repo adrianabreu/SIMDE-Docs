@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: menu-ayuda
 title: Menú Ayuda
-prev: menu-ventana.html
-next: barra-de-herramientas-estandar.html
+prev: es/menu-ventana.html
+next: es/barra-de-herramientas-estandar.html
 ---
 
 ### Contenido

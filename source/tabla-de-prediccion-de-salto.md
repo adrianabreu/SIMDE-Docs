@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: tabla-de-prediccion-de-salto
 title: Tabla de predicción de salto
-prev: rob-registros.html
-next: reorder-buffer.html
+prev: es/rob-registros.html
+next: es/reorder-buffer.html
 ---
 
 La Tabla de Predicción de Salto emplea un esquema de 2 bits para predecir si un salto debe ser tomado o no.

@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: menu-ventana
 title: Menú Ventana
-prev: menu-ejecutar.html
-next: menu-ayuda.html
+prev: es/menu-ejecutar.html
+next: es/menu-ayuda.html
 ---
 
 Contiene las opciones para el control de las ventanas de la aplicación.

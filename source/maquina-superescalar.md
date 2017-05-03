@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: maquina-superescalar
 title: Máquina superescalar
-prev: unidades-funcionales.html
-next: unidad-de-prebusqueda.html
+prev: es/unidades-funcionales.html
+next: es/unidad-de-prebusqueda.html
 ---
 
 ![](imgs/bm40.png)

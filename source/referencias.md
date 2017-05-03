@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: referencias
 title: Referencias
-prev: calculo-de-direcciones.html
-next: autor.html
+prev: es/calculo-de-direcciones.html
+next: es/autor.html
 ---
 
 Se incluyen a continuación una serie de documentos de interés:

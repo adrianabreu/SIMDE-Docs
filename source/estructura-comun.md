@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: estructura-comun
 title: Estructura común
-prev: ejemplo-de-codigo-secuencial.html
-next: juego-de-instrucciones.html
+prev: es/ejemplo-de-codigo-secuencial.html
+next: es/juego-de-instrucciones.html
 ---
 
 Tanto la máquina Superescalar como la VLIW diseñadas para este simulador mantienen una estructura básica común.

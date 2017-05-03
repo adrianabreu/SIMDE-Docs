@@ -1,9 +1,10 @@
 ---
 layout: default
+lang: es
 id: ejemplo-de-codigo-secuencial
 title: Ejemplo de código secuencial
-prev: fichero-de-codigo-secuencial.html
-next: estructura-comun.html
+prev: es/fichero-de-codigo-secuencial.html
+next: es/estructura-comun.html
 ---
 
 ```

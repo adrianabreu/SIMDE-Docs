@@ -3,26 +3,27 @@ layout: default
 lang: en
 id: menu-ayuda
 title: Menú Ayuda
-prev: es/menu-ventana.html
-next: es/barra-de-herramientas-estandar.html
+prev: en/menu-ventana.html
+next: en/barra-de-herramientas-estandar.html
 ---
 
-### Contenido
+### Contents
 
-Muestra el contenido general de la Ayuda.
-
-
-### Buscar Ayuda Sobre...
-
-Muestra la ventana de búsqueda en el índice de la Ayuda.
+Use this menu item to show general contents from help.
 
 
-### Cómo Usar la Ayuda
+### Find Help About...
 
-Explica cómo emplear las ventanas de Ayuda.
+Use this menu item to find about a specific topic in help.
 
 
-### Acerca...
+### How to use Help
 
-Información general de la Aplicación.
+Use this menu item to obtain an explanation about the use of help window.
+
+
+### About...
+
+Use this menu item to view the general description of the application and authors.
+
 

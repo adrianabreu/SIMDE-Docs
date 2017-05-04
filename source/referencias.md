@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: referencias
 title: Referencias
-prev: es/calculo-de-direcciones.html
-next: es/autor.html
+prev: calculo-de-direcciones.html
+next: autor.html
 ---
 
 Se incluyen a continuación una serie de documentos de interés:
@@ -24,7 +24,7 @@ Se incluyen a continuación una serie de documentos de interés:
 [10] Shen J., Abraham J. A., Verification of Processor Microarchitectures, En Proc. IEEE VLSI Test Symposium, páginas 189-194, 1999
 [11] Sima D., Fountain T., Kacsuk P., Advanced Computer Architectures, A Design Space Approach, Addison-Wesley, 1998
 [12] Smith J. E., Sohi G. S., The Microarchitecture of Superscalar Processors, Proc. of the IEEE, Diciembre 1995
-[13] Zima H.P., Chapman B.M., Supercompilers for Parallel and Vector Computers, ACM Press Frontier Series/Addison-Wesley, 1990
+[13] Zima H.P., Chapman B.M., Supercompilers for Parallel and Vector Computers, ACM Press Frontier SeriAddison-Wesley, 1990
 
 
 ## Otros simuladores

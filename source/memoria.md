@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: memoria
 title: Memoria
-prev: es/juego-de-instrucciones.html
-next: es/modos-de-direccionamiento.html
+prev: juego-de-instrucciones.html
+next: modos-de-direccionamiento.html
 ---
 
 La memoria emplea un esquema ficticio con cachés separadas para datos e instrucciones.

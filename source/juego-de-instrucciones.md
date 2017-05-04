@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: juego-de-instrucciones
 title: Juego de instrucciones
-prev: es/estructura-comun.html
-next: es/memoria.html
+prev: estructura-comun.html
+next: memoria.html
 ---
 
 El Juego de Instrucciones (Operaciones en la máquina VLIW) es común a las dos máquinas. Sin embargo hay ligeras diferencias en el comportamiento de algunas de las instrucciones.

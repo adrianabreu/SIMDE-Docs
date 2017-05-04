@@ -3,15 +3,15 @@ layout: default
 lang: en
 id: tabla-de-prediccion-de-salto
 title: Tabla de predicción de salto
-prev: es/rob-registros.html
-next: es/reorder-buffer.html
+prev: en/rob-registros.html
+next: en/reorder-buffer.html
 ---
 
-La Tabla de Predicción de Salto emplea un esquema de 2 bits para predecir si un salto debe ser tomado o no.
+The Branch Prediction Table uses a 2-bit scheme to predict if a branch must be taken or not.
 
-La tabla tiene 16 entradas, que se corresponden con los 4 últimos bits de la posición en memoria de la instrucción de salto.
+The table has 16 entries. The last 4 bits of the memory address of a branch instruction are used to know what entry corresponds to the branch.
 
-El esquema de funcionamiento del algoritmo de 2 bits puede verse en el siguiente dibujo, donde se indica si el salto se toma o no, y las transiciones de estado se deben a si se ha acertado con la última predicción o no:
+The next scheme shows how the 2-bits algorithm works.
 
 ![](imgs/bm41.png)
 

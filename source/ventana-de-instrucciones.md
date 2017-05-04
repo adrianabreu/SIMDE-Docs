@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: ventana-de-instrucciones
 title: Ventana de instrucciones
-prev: es/barra-de-herramientas-de-ejecucion.html
-next: es/configurar-parametros-superescalar.html
+prev: barra-de-herramientas-de-ejecucion.html
+next: configurar-parametros-superescalar.html
 ---
 
 La Ventana de Instrucciones permite visualizar el código secuencial*D162K7 cargado desde un fichero.

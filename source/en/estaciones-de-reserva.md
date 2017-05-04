@@ -3,21 +3,22 @@ layout: default
 lang: en
 id: estaciones-de-reserva
 title: Estaciones de reserva
-prev: es/reorder-buffer.html
-next: es/calculo-de-direcciones.html
+prev: en/reorder-buffer.html
+next: en/calculo-de-direcciones.html
 ---
 
 
-Estructura en la que permanecen las instrucciones mientras esperan por sus operandos o se ejecutan en la U. F. correspondiente.
-Tienen tantas entradas como una más que el número de etapas de la U.F. correspondiente multiplicada por el número de U.F. de ese tipo que haya.
+This structure holds the instructions while they are waiting for their operands or they are executing in the corresponding FU*D162M0. 
+
+Let T be a specific type of FU. There is an associated RE[T] for each type of FU. Let N[T] be the number of FU[T] and let P[T] be the number of pipeline stages of this FU. The number of entries of RE[T] is computed by using the following expression: N[T] * P[T] + 1
 
 
-### Campos
+### Fields
 
-* Inst.: Identificador de la instrucción
-* Qj: Disponibilidad del primer operando. -1 indica que el valor se encuentra en Vj; otro valor indica la posición del ROB donde se está procesando el operando.
-* Vj: Valor del primer operando si (Qj = -1).
-* Qk: Disponibilidad del segundo operando. -1 indica que el valor se encuentra en Vk; otro valor indica la posición del ROB donde se está procesando el operando.
-* Vk: Valor del segundo operando si (Qk = -1).
-* A: Dirección de memoria
-* ROB: Posición del ROB donde está esta instrucción
+* Inst.: Instruction identifier.
+* Qj: The ROB entry that will produce the first source operand. A value of -1 indicates that the source operand is already available in Vj.
+* Vj: Value of the first source operand if (Qj = -1).
+* Qk: The ROB entry that will produce the first source operand. A value of -1 indicates that the source operand is already available in Vk.
+* Vk: Value of the first source operand if (Qk = -1).
+* A: Memory address.
+* ROB: ROB entry where this instruction is being processed.

@@ -3,21 +3,22 @@ layout: default
 lang: en
 id: registros-de-proposito-general
 title: Registros de propósito general
-prev: es/modos-de-direccionamiento.html
-next: es/registros-de-punto-flotante.html
+prev: en/modos-de-direccionamiento.html
+next: en/registros-de-punto-flotante.html
 ---
 
-Banco de 64 registros de 32 bits.
+File with 64 32-bits registers.
 
-Se denotan R0, R1, R2, ..., R63.
-
-
-	R0
-
-El valor de R0 se mantiene siempre a 0.
+They are named R0, R1, R2, ..., R63.
 
 
-	Acceso
+### R0
 
-En la máquina VLIW la lectura se realiza en la primera mitad del ciclo y la escritura en la segunda mitad. De esta manera se evitan los riesgos WAR. En la máquina Superescalar no tiene sentido este añadido, ya que este tipo de dependencias se eliminan con el ROB*D162M7.
+The value of R0 is always 0.
+
+
+### Access
+
+The VLIW processor has a special access mode. "Reads" are carried out in the first half of a clock cycle and "writes" in the second one. Thus, WAR hazards are avoided. The Superscalar processor doesn't need this mechanism because the ROB*D162M7 makes this job.
+
 

@@ -3,35 +3,43 @@ layout: default
 lang: en
 id: menu-configurar
 title: Menú Configurar
-prev: es/menu-ver.html
-next: es/menu-ejecutar.html
+prev: en/menu-ver.html
+next: en/menu-ejecutar.html
 ---
 
-Contiene las opciones de configuración de las máquinas.
+This menu contains utilities to configure processor parameters.
 
 
-### Configurar Superescalar
+## Superscalar Configuration
 
-Abre la ventana de Configuración de la Máquina Superescalar*D162K2, con la que se pueden modificar sus parámetros más importantes.
-
-
-### Configurar VLIW
-
-Abre la ventana de Configuración de la Máquina VLIW*D162K3, con la que se pueden modificar sus parámetros más importantes.
+Use this menu item to show the Superscalar Configuration*D162K2 window, that allows to modify the main parameters of the superscalar processor.
 
 
-### Instrucciones VLIW
+## VLIW Configuration
 
-Contiene los menús para diseñar un código VLIW:
-
-* Crear Nuevo Programa VLIW*D162K9: Permite crear un nuevo código VLIW
-* Cargar Programa VLIW...*D162L0: Permite cargar un código VLIW desde un fichero
+Use this menu item to show the VLIW Configuration*D162K3 window, that allows to modify the main parameters of the VLIW processor.
 
 
-### Opciones
+## Memory-Registers data
 
-Contiene varias opciones del programa:
+This menu item allows to load/save the contents of memory and registers from/to a file:
 
-* Resetear Máquina al Iniciar: Si se deja marcada, cada vez que se inicie una nueva simulación la memoria y registros de la máquina se ponen a 0. Si no conserva los valores de la última ejecución.
-* Chequear Código VLIW: Le indica al programa que chequee el código VLIW en busca de inconsistencias al terminar su diseño.
-* % Fallos Caché Datos: Permite establecer el porcentaje de fallos de caché de datos al realizar una instrucción de carga (LOAD). 0 significa que no habrá ningún fallo y 100 significa que todos los accesos producen fallo.
+* Save Mem/Reg to File: Allows the user to save the contents of the memory and registers of the superscalar or the VLIW processor to a file.
+* Load Mem/Reg from File: Allows the user to load the contents of the memory and the registers from a file. The user is asked in order to fill only the superscalar processor, only the VLIW one or both.
+
+
+## VLIW Instructions
+
+This menu contains some useful options in order to design a VLIW code:
+
+* Create New VLIW Code*D162K9: Use this menu item to create a blank VLIW code.
+* Load VLIW Code...*D162L0: Use this menu item to load a VLIW code from a file.
+
+
+## Options
+
+This menu contains some general options:
+
+* Reset Processor at start: If this option is marked the registers and memory are reset every time you start a new simulation. Otherwise, the values are perserved.
+* Check VLIW Code: If this option is marked every new VLIW code is checked looking for errors.
+* % Data Cache Miss: Use this option to set the data cache miss rate when you use a LOAD instruction. Use 0 for no misses and 100 for direct main memory access.

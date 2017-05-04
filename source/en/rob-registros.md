@@ -3,8 +3,8 @@ layout: default
 lang: en
 id: rob-registros
 title: ROB<->Registros
-prev: es/decodificador.html
-next: es/tabla-de-prediccion-de-salto.html
+prev: en/decodificador.html
+next: en/tabla-de-prediccion-de-salto.html
 ---
 
-Es el campo Qi del que se habla en el algoritmo de Tomasulo. Indica si un registro de propósito general está siendo usado por alguna entrada del ROB (en cuyo caso se mostrará el número de la entrada) o no (-1).
+This is what Tomasulo's algorithm calls the Qi field. It indicates if a GPR is being used by a ROB entry (it shows the entry number) or not (-1). 

@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: fichero-de-codigo-secuencial
 title: Fichero de código secuencial
-prev: es/ventana-simulacion.html
-next: es/ejemplo-de-codigo-secuencial.html
+prev: ventana-simulacion.html
+next: ejemplo-de-codigo-secuencial.html
 ---
 
 Los Ficheros de Código Secuencial que se emplean como entrada permiten definir de forma sencilla un código secuencial mediante cualquier editor de textos. Todos los ficheros de código deben llevar la extensión .pla

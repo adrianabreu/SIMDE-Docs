@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: registros-de-proposito-general
 title: Registros de propósito general
-prev: es/modos-de-direccionamiento.html
-next: es/registros-de-punto-flotante.html
+prev: modos-de-direccionamiento.html
+next: registros-de-punto-flotante.html
 ---
 
 Banco de 64 registros de 32 bits.

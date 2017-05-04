@@ -3,15 +3,15 @@ layout: default
 lang: en
 id: configurar-parametros-superescalar
 title: Configurar parámetros Superescalar
-prev: es/ventana-de-instrucciones.html
-next: es/ventana-registros-memoria.html
+prev: en/ventana-de-instrucciones.html
+next: en/ventana-registros-memoria.html
 ---
 
-*Vaya a Configurar => Parámetros Superescalar*.
+*Click on Configure => Superscalar Configuration*.
 
 ![](imgs/bm17_result.png)
 
-Los parámetros configurables son el Número de U.F. y la Latencia de cada una.
-Además se puede definir la latencia cuando hay un Fallo de Caché.
+You can configure the Number and the Latency for each type of Functional Unit.
+You can configure cache miss latency too. 
 
-El otro parámetro modificable es el valor de Emisión, que indica el número de instrucciones que se emiten (y graduan) por ciclo.
+The Issue Rate sets the number of instructions which are issued (and  commited) by clock cycle.

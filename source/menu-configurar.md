@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: menu-configurar
 title: Menú Configurar
-prev: es/menu-ver.html
-next: es/menu-ejecutar.html
+prev: menu-ver.html
+next: menu-ejecutar.html
 ---
 
 Contiene las opciones de configuración de las máquinas.

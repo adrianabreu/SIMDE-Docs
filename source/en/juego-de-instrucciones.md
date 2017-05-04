@@ -3,76 +3,133 @@ layout: default
 lang: en
 id: juego-de-instrucciones
 title: Juego de instrucciones
-prev: es/estructura-comun.html
-next: es/memoria.html
+prev: en/estructura-comun.html
+next: en/memoria.html
 ---
 
-El Juego de Instrucciones (Operaciones en la máquina VLIW) es común a las dos máquinas. Sin embargo hay ligeras diferencias en el comportamiento de algunas de las instrucciones.
+The Instruction Set (Operations in VLIW processor) is a common element for both processors. However some instructions operate in a slightly different way depending on the processor selected.
 
-	ADDI
-Suma Entera con Inmediato sin signo
-ADDI Rd, Ro1, #Inm
-Rd = Ro1 + Inm
-Se opera en la UF de Suma Entera
+### ADDI
+Immediate Integer Addition
+ADDI Rd, Ro1, #Imm
+Rd = Ro1 + Imm
+It uses the Integer Add FU.
 
-	ADD
-Suma Entera
+### ADD
+Integer Addition
 ADD Rd, Ro1, Ro2
 Rd = Ro1 + Ro2
-Se opera en la UF de Suma Entera
+It uses the Integer Add FU.
 
-	MULT
-Multiplicación Entera
+### SUB
+Integer Subtraction
+SUB Rd, Ro1, Ro2
+Rd = Ro1 - Ro2
+It uses the Integer Add FU.
+
+### AND
+Bitwise "and"
+AND Rd, Ro1, Ro2
+Rd = Ro1 AND Ro2
+It uses the Integer Add FU.
+
+### OR
+Bitwise "or"
+OR Rd, Ro1, Ro2
+Rd = Ro1 OR Ro2
+It uses the Integer Add FU.
+
+### NOR
+Bitwise "Not or"
+NOR Rd, Ro1, Ro2
+Rd = Ro1 NOR Ro2
+It uses the Integer Add FU.
+
+### XOR
+Bitwise "Exclusive or"
+XOR Rd, Ro1, Ro2
+Rd = Ro1 XOR Ro2
+It uses the Integer Add FU.
+
+### SLLV
+Shift Left Logical Variable
+SLLV Rd, Ro1, Ro2
+Rd = Ro2 << Ro1[4..0]
+The bit shift count is especified by the low-order five bits of Ro1.
+It uses the Integer Add FU.
+
+### SRLV
+Shift Right Logical Variable
+SLLV Rd, Ro1, Ro2
+Rd = Ro2 >> Ro1[4..0]
+The bit shift count is especified by the low-order five bits of Ro1.
+It uses the Integer Add FU.
+
+### MULT
+Integer Multiplication
 MULT Rd, Ro1, Ro2
 Rd = Ro1 * Ro2
-Se opera en la UF de Multiplicación Entera
+It uses the Integer Multiplication FU.
 
-	ADDF
-Suma Punto Flotante
+### ADDF
+Floating Point (FP) Addition
 ADDF Fd, Fo1, Fo2
 Fd = Fo1 + Fo2
-Se opera en la UF de Suma en Punto Flotante
+It uses the FP Add FU.
 
-	MULTF
-Multiplicación Punto Flotante
+### SUBF
+Floating Point (FP) Subtraction
+SUBF Fd, Fo1, Fo2
+Fd = Fo1 - Fo2
+It uses the FP Add FU.
+
+### MULTF
+FP Multiplication
 MULTF Fd, Fo1, Fo2
 Fd = Fo1 * Fo2
-Se opera en la UF de Multiplicación en Punto Flotante
+It uses the FP Multiplication FU.
 
-	LW
-Load Entero
-LW Rd, Inm(Ro)
-Rd = MEM[Ro + Inm]
-Se opera en la UF de Memoria
+### LW
+Integer Load
+LW Rd, Imm(Ro)
+Rd = MEM[Ro + Imm]
+It uses the Memory FU.
 
-	LF
-Load Flotante
-LF Fd, Inm(Ro)
-Fd = MEM[Ro + Inm]
-Se opera en la UF de Memoria
+### LF
+FP Load
+LF Fd, Imm(Ro)
+Fd = MEM[Ro + Imm]
+It uses the Memory FU.
 
-	SW
-Store Entero
-SW Ro, Inm(Rd)
-MEM[Rd + Inm] = Ro
-Se opera en la UF de Memoria
+### SW
+Integer Store
+SW Ro, Imm(Rd)
+MEM[Rd + Imm] = Ro
+It uses the Memory FU.
 
-	SF
-Store Flotante
-SF Fo, Inm(Rd)
-MEM[Rd + Inm] = Fo
-Se opera en la UF de Memoria
+### SF
+FP Store
+SF Fo, Imm(Rd)
+MEM[Rd + Imm] = Fo
+It uses the Memory FU.
 
-	BNE
-Salta si distinto
-BNE Ro1, Ro2, Etiqueta
-Si (Ro1 != Ro2)
-	Saltar a instrucción apuntada por Etiqueta
-Se opera en la UF de Salto
+### BNE
+Branch if not equal
+BNE Ro1, Ro2, Label
+If (Ro1 != Ro2)
+	Jump to instruction labeled with "Label"
+It uses the Branch FU.
 
-	BEQ
-Salta si igual
-BEQ Ro1, Ro2, Etiqueta
-Si (Ro1 == Ro2)
-	Saltar a instrucción apuntada por Etiqueta
-Se opera en la UF de Salto
+### BEQ
+Branch if equal
+BEQ Ro1, Ro2, Label
+If (Ro1 == Ro2)
+	Jump to instruction labeled with "Label"
+It uses the Branch FU.
+
+### BGT
+Branch if greater
+BGT Ro1, Ro2, Label
+If (Ro1 > Ro2)
+	Jump to instruction labeled with "Label"
+It uses the Branch FU.

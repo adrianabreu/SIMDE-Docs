@@ -3,14 +3,14 @@ layout: default
 lang: en
 id: referencias
 title: Referencias
-prev: es/calculo-de-direcciones.html
-next: es/autor.html
+prev: en/calculo-de-direcciones.html
+next: en/autor.html
 ---
 
-Se incluyen a continuación una serie de documentos de interés:
+The list below contains some interesting links and references:
 
 
-## Documentos
+## Documents and Papers
 
 [1] Abnous A., Architectural Design and Analysis of a VLIW Processor, M.S. Thesis, University of California, Irvine, 1991
 [2] Colwell R.P., Nix R.P., O'Donnell J.J., Papworth D.B., Rodman P.K., A VLIW Architecture for a Trace Scheduling Compiler, IEEE Transactions on Computers, vol. 37, nº 8, págs . 967-979, Agosto 1988
@@ -24,10 +24,10 @@ Se incluyen a continuación una serie de documentos de interés:
 [10] Shen J., Abraham J. A., Verification of Processor Microarchitectures, En Proc. IEEE VLSI Test Symposium, páginas 189-194, 1999
 [11] Sima D., Fountain T., Kacsuk P., Advanced Computer Architectures, A Design Space Approach, Addison-Wesley, 1998
 [12] Smith J. E., Sohi G. S., The Microarchitecture of Superscalar Processors, Proc. of the IEEE, Diciembre 1995
-[13] Zima H.P., Chapman B.M., Supercompilers for Parallel and Vector Computers, ACM Press Frontier Series/Addison-Wesley, 1990
+[13] Zima H.P., Chapman B.M., Supercompilers for Parallel and Vector Computers, ACM Press Frontier Serien/Addison-Wesley, 1990
 
 
-## Otros simuladores
+## Other simulators
 [sim1] Edler J., Hill M., Dinero IV: Trace-Driven Uniprocessor Cache Simulator, Univ. of Wisconsin Computer Sciences
 [sim2] Lopez P., Calpé R., WinDLXV, Universidad Politécnica de Valencia
 [sim3] Texas Instruments, Simulador para la familia de procesadores TMS320C6xxx, 2001

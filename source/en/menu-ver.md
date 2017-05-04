@@ -3,26 +3,26 @@ layout: default
 lang: en
 id: menu-ver
 title: Menú ver
-prev: es/menu-archivo.html
-next: es/menu-configurar.html
+prev: en/menu-archivo.html
+next: en/menu-configurar.html
 ---
 
-Contiene las opciones de visualización del programa.
+It contains the visualization options of the application.
 
 
-### Bloques Básicos
+## Basic Blocks
 
-Habilita la opción de colorear los bloques básicos*D162N8 en el código.
-
-
-### Barras de Herramientas
-
-Permite seleccionar qué barras de herramientas se ven y cuáles no. Hay dos barras de herramientas definidas:
-
-* La barra **Estándar**, que contiene las opciones básicas
-* La barra de **Ejecución**, que permite realizar las simulaciones
+Use this menu item to colour the basic blocks*D162N8 in the code window.
 
 
-### Código Secuencial
+## Tool Bars
 
-Muestra/oculta el código secuencial cargado de fichero.
+Use this menu item to hide/show the tool bars of the application. There are two different tool bars:
+
+* The Standard*D162T9 tool bar, which contains basic options.
+* The Execution*D162K0 tool bar, for using in simulations.
+
+
+## Sequential code
+
+Use this menu item to show/hide the sequential code loaded from a file.

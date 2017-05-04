@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: ventana-registros-memoria
 title: Ventana de Registros - Memoria
-next: es/ventana-simulacion.html
-prev: es/configurar-parametros-superescalar.html
+next: ventana-simulacion.html
+prev: configurar-parametros-superescalar.html
 ---
 
 

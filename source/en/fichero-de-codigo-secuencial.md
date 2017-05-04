@@ -3,48 +3,57 @@ layout: default
 lang: en
 id: fichero-de-codigo-secuencial
 title: Fichero de código secuencial
-prev: es/ventana-simulacion.html
-next: es/ejemplo-de-codigo-secuencial.html
+prev: en/ventana-simulacion.html
+next: en/ejemplo-de-codigo-secuencial.html
 ---
 
-Los Ficheros de Código Secuencial que se emplean como entrada permiten definir de forma sencilla un código secuencial mediante cualquier editor de textos. Todos los ficheros de código deben llevar la extensión .pla
+The input sequential code files allows the user to easily define a sequential code with any text editor. The .pla extension is required for all code files.
 
 
-## Características
+### Characteristics
 
-El fichero debe cumplir las siguientes características:
-* La primera línea del fichero (que no sea un comentario) contiene el número de instrucciones del fichero.
-* Cada instrucción debe ponerse en una nueva línea.
-* Se permiten como separadores de operandos tabuladores o espacios.
-* Las etiquetas se ponen al principio de la línea y deben terminar con ":".
-* Los comentarios se indican con  "//". De ahí al final de la línea todo es un comentario.
-
-
-## Instrucciones
-
-Las instrucciones permitidas están inspiradas en el repertorio MIPS IV. Se emplea la siguiente nomenclatura:
-
-* Rn Registro de Propósito General n. 
-		Ej.  R1, R0...
-* Fm Registro de Punto Flotante m. 
-		Ej.  F1, F0...
-* #n Valor inmediato n. 
-		Ej.  #12, #0...
-* n(Rm) Dirección de memoria. 
-		Ej.  (R1), 3(R4)...
-* LAB: Etiqueta destino de un salto. 
-		Ej.  LOOP1:, END:...
+File must be created with the following characteristics:
+* The first line (not a commentary) must contain the number of instructions of code.
+* Each instruction must be placed in a new line.
+* Operands are separated with blanks or tabs.
+* Labels must be placed at the start of the line and always finishes with a ":".
+* Commentaries start with "//". From here to the end of the line will be considered as a commentary.
 
 
-Las instrucciones permitidas son:
+### Instructions
+
+The instructions are inspired in the MIPS IV repertory. We use the next nomenclature:
+
+* Rn General Purpose Register n. 
+		f. i.  R1, R0...
+* Fm Floating Point Register m. 
+		f. i.  F1, F0...
+* #n Inmediate value n. 
+		f. i.  #12, #0...
+* n(Rm) Memory address. 
+		f. i.  (R1), 3(R4)...
+* LAB: Branch destiny label. 
+		f. i.  LOOP1:, END:...
+
+
+The allowed instructions*D162L4 are:
 * ADDI		Rn Rm #i
 * ADD		Rn Rm Rp
+* SUB		Rn Rm Rp
+* AND		Rn Rm Rp
+* OR		Rn Rm Rp
+* NOR		Rn Rm Rp
+* XOR		Rn Rm Rp
+* SLLV		Rn Rm Rp
+* SRLV		Rn Rm Rp
 * MULT		Rn Rm Rp
 * ADDF		Fn Fm Fp
+* SUBF		Fn Fm Fp
 * MULTF		Fn Fm Fp
 * LW		Rn i(Rm)
-* LF		Fn i(Rm)
+* LF			Fn i(Rm)
 * SW		Rn i(Rm)
-* SF		Fn i(Rm)
+* SF			Fn i(Rm)
 * BNE		Rn Rm LAB
 * BEQ		Rn Rm LAB
+* BGT		Rn Rm LAB

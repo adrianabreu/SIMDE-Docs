@@ -3,14 +3,16 @@ layout: default
 lang: en
 id: registros-de-punto-flotante
 title: Registros de punto flotante
-prev: es/registros-de-proposito-general.html
-next: es/unidades-funcionales.html
+prev: en/registros-de-proposito-general.html
+next: en/unidades-funcionales.html
 ---
-Banco de 64 registros de 32 bits. Emplea simple precisión.
 
-Se denotan F0, F1, F2, ..., F63.
+File with 64 32-bits single-precision registers.
+
+They are named F0, F1, F2, ..., F63.
 
 
-### Acceso
+### Access
 
-En la máquina VLIW la lectura se realiza en la primera mitad del ciclo y la escritura en la segunda mitad. De esta manera se evitan los riesgos WAR. En la máquina Superescalar no tiene sentido este añadido, ya que este tipo de dependencias se eliminan con el ROB*D162M7.
+The VLIW processor has an special access mode. "Reads" are carried out in the first half of a clock cycle and "writes" in the second one. Thus, WAR hazards are avoided. The Superscalar processor doesn't need this mechanism because the ROB*D162M7 makes this job.
+

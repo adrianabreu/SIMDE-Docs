@@ -3,38 +3,38 @@ layout: default
 lang: en
 id: introduccion
 title: Introducción
-prev: es/index.html
-next: es/instruction-level-paralelism.html
+prev: en/index.html
+next: en/instruction-level-paralelism.html
 ---
 
-## ¿Qué es SIMDE?
+##  What's SIMDE?
 
-SIMDE es un simulador de Arquitecturas **ILP** (Instruction Level Parallelism) que incluye sus dos vertientes más características: 
-* Planificación dinámica: Cogiendo como ejemplo una máquina **Superescalar**.
-* Planificación estática: Tomando como ejemplo una máquina **VLIW**.
+SIMDE is a simulator for supporting teaching of **ILP** (Instruction Level Parallelism) Architectures. It includes two characteristic flavours of ILP architectures: 
+* Dynamic Scheduling: Taking a  Superscalar*D162M1 processor as an example.
+* Static Scheduling: Taking a VLIW*D162N0 processor as an example.
 
-El objetivo del simulador es servir de herramienta para el apoyo docente en la enseñanza de estas arquitecturas. Para ello hace hincapié en los aspectos más destacables de las dos vertientes estudiadas, así como en sus diferencias.
+The simulator places emphasis on similarities and differences between superscalar and VLIW processors because of its educative purposes.
 
-## ¿Qué no es SIMDE?
+## What can't you expect from SIMDE?
 
-**SIMDE** no pretende ser un simulador realista de estas arquitecturas. En su diseño contiene un gran número de simplificaciones que intentan clarificar el funcionamiento de la máquina a costa de un mayor rigor técnico. Algunos de los componentes de las máquinas funcionan de manera imposible de implementar en la práctica (o de costes prohibitivos). 
+**SIMDE** is not intended to be a realistic simulator. It contains a lot of simplifications in its design that try to clarify the functionalities at the expense of a rigorous approach. Some components are designed in such a way that makes imposible a realistic implementation.
 
-El diseño de la máquina VLIW es extremadamente simple para resaltar aún más sus diferencias con la máquina Superescalar. Este diseño no tiene ninguna utilidad más que como máquina teórica.
+The VLIW design is extremely simple to incide in the differences with the superscalar processor. This design is useful only as a theoretical approach.
 
-**SIMDE** no es un compilador VLIW. Todas las optimizaciones del código y su posterior planificación las realiza el usario.
+**SIMDE** is not a VLIW compiler. The code optimization and scheduling are made by the user.
 
-## Funcionalidades
+## Functionalities
 
-SIMDE permite:
+SIMDE allows to:
 
-* Cargar un único programa secuencial*D162K7 cada vez que servirá como base para la ejecución Superescalar o para diseñar un código VLIW.
+* Load a single sequential code*D162K7 each time. This code will be used as basis for superscalar executions and design of VLIW codes.
 
-* Modificar los parámetros de las máquinas Superescalar*D162K2 y VLIW*D162K3.
+* Modify processor parameters for both Superscalar and VLIW processors.
 
-* Crear*D162K9, cargar*D162L0 o modificar*D162L1 un código de instrucciones largas que usar en la simulación VLIW. Además se añaden herramientas para facilitar la creación de este código, como el coloreado de bloques básicos*D162N8 o el chequeo automático*D162T5 del código creado para detectar inconsistencias.
+* Create*D162K9, load*D162L0 or modify a (very) long instruction code that can be used in VLIW simulations. Different tools (like basic blocks*D162N8 coloring or a code automatic-checking*D162T5 for detecting inconsistences) have been added in order to simplify the creation of VLIW codes.
 
-* Modificar el contenido*D162K4 de la memoria y registros.
+* Modify contents from registers and memory.
 
-* Realizar simulaciones continuas o paso a paso de la máquina Superescalar, permitiendo el uso de breakpoints para detener la ejecución en un punto del código determinado.
+* Carry out continuous or step by step simulations of Superscalar processor. The use of breakpoints is allowed to stop the execution at any point of code.
 
-* Realizar simulaciones continuas o paso a paso de la máquina VLIW, permitiendo el uso de breakpoints para detener la ejecución en un punto del código determinado.
+* Carry out continuous or step by step simulations of VLIW processor. The use of breakpoints is allowed to stop the execution at any point of code.

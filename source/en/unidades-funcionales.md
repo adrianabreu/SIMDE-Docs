@@ -3,24 +3,25 @@ layout: default
 lang: en
 id: unidades-funcionales
 title: Unidades funcionales
-prev: es/registros-de-punto-flotante.html
-next: es/maquina-superescalar.html
+prev: en/registros-de-punto-flotante.html
+next: en/maquina-superescalar.html
 ---
 
-Las Unidades Funcionales (UF) son las únidades básicas de ejecución de la máquina.
+The Functional Units (FU) are the basic unit for the processor execution.
 
-Son segmentadas, y cada etapa del pipeline dura 1 ciclo exactamente. De esta manera, cada ciclo puede entrar una nueva instrucción a menos que tenga una dependencia verdadera con la instrucción anterior. En ese caso, deberá esperar hasta que la instrucción anterior haya acabado completamente su ejecución. A este tiempo lo denominamos latencia de la UF, y coincide con el número de etapas del pipeline.
+They are pipelined, with 1 cycle per pipeline stage. Thus, a new instruction (operation of a VLIW processor) enters in the pipeline each cycle unless it has a true dependence with the previous instruction. If this is the case, the entering instruction must be stalled until the previous instruction has finished. The time the instruction is stalled is called Latency and it fits with the number of pipeline stages.
 
-### Tipos
 
-* Suma entera: Para efectuar las operaciones ADD y ADDI, y el cálculo de direcciones en la VLIW (en la máquina superescalar esta función se considera integrada en la UF de memoria).
+### Types
 
-* Multiplicación entera: Efectúa la operación MULT.
+* Integer Add: It performs the ADDI and ADD operations, and the address computing for the superscalar processor (the VLIW processor includes this work in the memory FU).
 
-* Suma flotante: Efectúa la operación ADDF.
+* Integer Multiplication: It performs the MULT operation.
 
-* Multiplicación flotante: Efectúa la operación MULTF.
+* FP Add: It performs the ADDF operation.
 
-* Memoria: Se encarga de todas las operaciones referentes a memoria (LW, SW, LF, SF). En la máquina Superescalar se considera que tiene integrada una ALU para el cálculo de direcciones, mientras que en la VLIW sólo representa el tiempo de acceso a la memoria
+* FP Multiplication: It performs the MULTF operation.
 
-* Salto: Se encarga de las operaciones de salto, evaluando las condiciones y cambiando el PC (y la tabla de predicción en la máquina Superescalar).
+* Memory: It performs all the memory operations (LW, LF, SW, SF). The VLIW processor adds an ALU for address computing into this unit. 
+
+* Branch: It performs all branch operations. It evaluates conditions and change the PC (if it's necessary). Branch Prediction Table in superscalar processor is handled by this unit too).

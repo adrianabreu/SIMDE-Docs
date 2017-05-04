@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: historial
 title: Historial
-prev: es/how-it-works.html
-next: es/using.html
+prev: how-it-works.html
+next: using.html
 ---
 
 ### v1.1 06/07/2004

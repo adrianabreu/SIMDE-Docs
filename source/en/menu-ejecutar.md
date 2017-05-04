@@ -3,41 +3,41 @@ layout: default
 lang: en
 id: menu-ejecutar
 title: Menú Ejecutar
-prev: es/menu-configurar.html
-next: es/menu-ventana.html
+prev: en/menu-configurar.html
+next: en/menu-ventana.html
 ---
 
-Contiene todas las herramientas para realizar las simulaciones.
+Simulations are carried out by using this menu.
 
 
-### Seleccionar Máquina
+### Select Processor
 
-Permite escoger la máquina con la que quiere realizarse la simulación.
+Use this menu item to select the processor you want to simulate.
 
-1. Seleccionar Superescalar
-2. Seleccionar VLIW
-
-
-### Iniciar
-
-Permite comenzar la ejecución continua de la simulación. Si se pulsa mientras está ejecutandose otra simulación, se ofrece la opción de comenzar desde el principio. La ejecución continua sólo se detiene al llegar al final del programa o si encuentra un Break Point.
+* Select Superscalar
+* Select VLIW
 
 
-### Pausa
+### Start
 
-Permite pausar una ejecución iniciada en modo continuo. Después puede proseguirse con la ejecución en modo continuo o paso a paso.
-
-
-### Paso
-
-Permite comenzar (continuar) una ejecución paso a paso. Cada vez que se hace clic en este botón la simulación avanza un ciclo.
+Click this item to start a continuous simulation. If you use this option during an in-execution simulation, you can restart the simulation. Continuous execution stops when the last instruction is finished or when it finds a Breakpoint.
 
 
-### Parar
+### Pause
 
-Detiene una ejecución poniendo el reloj a 0.
+Click this item to pause a continuous execution. When an execution is paused, you can continue it by pressing "Start" (continuous execution) or "Step" (step by step execution).
 
 
-### Componentes
+### Step
 
-Permite visualizar y modificar los componentes comunes de la máquina: registros y memoria.
+Click this item to start or continue a step by step execution. Every time you press this button the simulation steps one clock cycle.
+
+
+### Stop
+
+Click this item to stop the execution and reset the clock.
+
+
+### Components
+
+Use this menu item to view and modify registers and memory from the currently selected processor.

@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: configurar-parametros-superescalar
 title: Configurar parámetros Superescalar
-prev: es/ventana-de-instrucciones.html
-next: es/ventana-registros-memoria.html
+prev: ventana-de-instrucciones.html
+next: ventana-registros-memoria.html
 ---
 
 *Vaya a Configurar => Parámetros Superescalar*.

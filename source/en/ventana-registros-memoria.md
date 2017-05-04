@@ -3,31 +3,29 @@ layout: default
 lang: en
 id: ventana-registros-memoria
 title: Ventana de Registros - Memoria
-next: es/ventana-simulacion.html
-prev: es/configurar-parametros-superescalar.html
+next: en/ventana-simulacion.html
+prev: en/configurar-parametros-superescalar.html
 ---
 
+There are two different ways for showing General Purpose or Floating Point Registers and Memory:
 
-Para ver los Registros de Propósito General, los de Punto Flotante o la Memoria se pueden emplear dos métodos:
+1. Click on menu Execute => Components and select a component.
 
-1. Ir al menú Ejecutar => Maquina Superescalar/VLIW => Componentes y elegir el componente correspondiente.
-
-2. Desde la Barra de Herramientas de Ejecución*D162K0 usar el cuadro combinado de componentes.
+2. Use the components combo box from the Execution Tool Bar*D162K0.
 
 
-![Ventana registro](imgs/bm19.png)
-La ventana permite ver un subconjunto de los elementos del componente seleccionado por el usuario.
+![Ventana registro](imgs/bm19_result.png)This window allows the user to see a subset of registers (or memory positions) of the current component.
 
-La primera columna representa el índice o la posición, y la segunda columna representa el valor de esa posición (por claridad, los números en punto flotante se presentan siempre redondeados a 3 decimales).
+The first column shows the register index or memory position. The second one shows the value associated to this index/position (floating point values are rounded to 3 decimals).
 
-Se presentan una serie de botones en la parte baja de la ventana:
+There are a set of buttons below the window :
 
-![Ventana registro](imgs/bm20_result.png) Permite seleccionar un subconjunto de elementos para mostrar mediante una lista de números o intervalos separados por comas (ej. 2,10-15,20).
+![Ventana registro](imgs/bm20_result.png) Click this button to select a subset of registers/positions to show. The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20).
 
-![Ventana registro](imgs/bm21_result.png)Permite seleccionar un subconjunto de elementos para ocultar mediante una lista de números o intervalos separados por comas (ej. 2,10-15,20).
+![Ventana registro](imgs/bm21_result.png) Click this button to select a subset of registers/positions to hide. The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20).
 
-![Ventana registro](imgs/bm22_result.png) Guarda los cambios realizados en el contenido del componente.
+![Ventana registro](imgs/bm22_result.png) Click this button to save the changes made in the component.
 
-![Ventana registro](imgs/bm23_result.png) Cancela los cambios realizados en el contenido del componente.
+![Ventana registro](imgs/bm23_result.png) Click this button to cancel the changes made in the component.
 
-![Ventana registro](imgs/bm24_result.png) Pone todos los elementos seleccionados a 0.
+![Ventana registro](imgs/bm24_result.png) Reset all selected values.

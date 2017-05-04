@@ -4,10 +4,12 @@
 
 # Site
 title: SIMDE
-subtitle: Documentación de SIMDE
 description: 
 author: Adrián Abreu
-language: en
+language:
+- es
+- en
+i18n_dir: :lang
 timezone: GMT
 
 # URL
@@ -24,7 +26,6 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
 skip_render:
 
 # Writing
@@ -72,3 +73,5 @@ deploy:
   repo: https://github.com/sitepoint-editors/hexo-documentation
   branch: gh-pages
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
+
+# Language 

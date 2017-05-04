@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: ventana-simulacion
 title: Ventana de simulación
-prev: es/ventana-registros-memoria.html
-next: es/fichero-de-codigo-secuencial.html
+prev: ventana-registros-memoria.html
+next: fichero-de-codigo-secuencial.html
 ---
 
 En esta ventana se observa la estructura básica de la máquina Superescalar. 

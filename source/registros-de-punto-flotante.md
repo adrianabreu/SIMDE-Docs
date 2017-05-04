@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: registros-de-punto-flotante
 title: Registros de punto flotante
-prev: es/registros-de-proposito-general.html
-next: es/unidades-funcionales.html
+prev: registros-de-proposito-general.html
+next: unidades-funcionales.html
 ---
 Banco de 64 registros de 32 bits. Emplea simple precisión.
 

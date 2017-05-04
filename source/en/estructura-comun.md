@@ -3,26 +3,24 @@ layout: default
 lang: en
 id: estructura-comun
 title: Estructura común
-prev: es/ejemplo-de-codigo-secuencial.html
-next: es/juego-de-instrucciones.html
+prev: en/ejemplo-de-codigo-secuencial.html
+next: en/juego-de-instrucciones.html
 ---
 
-Tanto la máquina Superescalar como la VLIW diseñadas para este simulador mantienen una estructura básica común.
+Both processors, Superscalar and VLIW, have been designed by using a shared basic structure.
 
+### Common characteristics
 
-## Características Comunes
+1. The processors are intended to work with 32-bit words for both integer and floating point data types.
 
-1. Ambas máquinas están diseñadas para trabajar con palabras de 32 bits, tanto para los tipos de datos entero y flotante.
+2. The instruction set repertoire, based on MIPS IV.
 
-2. El juego de instrucciones, basado en MIPS IV.
+3. Both processors are monoprogrammed. Codes (both, sequential code in superscalar processor and long instruction one in VLIW) starts always at memory address 0. Destination of branches are treated always as absolute addresses.
 
-3. Las dos máquinas son monoprograma. El código (tanto el secuencial en la máquina superescalar como el de instrucciones largas en la VLIW) siempre se coloca empezando en la dirección 0, por lo que los saltos son siempre a direcciones absolutas.
+### Common Elements
 
+* Memory*D162L5.
 
-## Elementos Comunes
+* General Purpose Registers*D162L8 (GPR).
 
-* Memoria*D162L5.
-
-* Registros de Propósito General*D162L8 (GPR).
-
-* Registros de Punto Flotante*D162L9 (FPR).
+* Floating Point Registers*D162L9 (FPR).

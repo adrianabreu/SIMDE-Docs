@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: menu-ver
 title: Menú ver
-prev: es/menu-archivo.html
-next: es/menu-configurar.html
+prev: menu-archivo.html
+next: menu-configurar.html
 ---
 
 Contiene las opciones de visualización del programa.

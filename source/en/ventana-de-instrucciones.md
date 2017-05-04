@@ -3,32 +3,31 @@ layout: default
 lang: en
 id: ventana-de-instrucciones
 title: Ventana de instrucciones
-prev: es/barra-de-herramientas-de-ejecucion.html
-next: es/configurar-parametros-superescalar.html
+prev: en/barra-de-herramientas-de-ejecucion.html
+next: en/configurar-parametros-superescalar.html
 ---
 
-La Ventana de Instrucciones permite visualizar el código secuencial*D162K7 cargado desde un fichero.
+The Instruction Window shows the sequential code*D162K7 loaded from a file.
 
 ![](imgs/bm16_result.png)
-Las instrucciones se muestran en orden secuencial.
+The instructions are showed in sequential order.
 
-En la primera columna aparece el número de orden de la instrucción, que servirá como Identificador. También aparecen en esta columna las etiquetas entre corchetes ([etiqueta:]) a continuación del número de instrucción.
+The first column shows the instruction number, used as identifier. The instruction labels are showed enclosed by brackets ([label:]) next to the instruction identifier.
 
-La segunda columna es el código de la operación (opcode).
+The second column shows the opcode.
 
-Las siguientes columnas son los operandos.
-
+Columns third to fifth show the operands.
 
 ### Breakpoints
 
-Haciendo doble clic sobre cualquier campo de la instrucción se establece un Breakpoint válido para la ejecución superescalar (los Breakpoints de la máquina VLIW se indican sobre las instrucciones largas). El breakpoint se indica con el color rojo en la columna del Identificador. Para quitar el Breakpoint basta con volver a hacer doble clic.
+Double-click on any instruction field sets a Breakpoint. This breakpoint is valid for superscalar execution (VLIW breakpoints are set on long instructions). An instruction with a breakpoint is marked with a red background at the identifier column. You can quit a Breakpoint by double-clicking again on the instruction.
 
 
-### Ocultar el código
+### Hide code
 
-Si se hace doble clic en el título con el nombre del fichero, se ocultará está ventana. Para volver a verla hay que ir al menú Ver => Código Secuencial..
+Double-click on the window title (where file name is showed) to hide the window. To show code window again, go to View => Sequencial Code.
 
 
-### Bloques básicos
+### Basic Blocks
 
-Para colorear los Bloques Básicos*D162N8 del código basta con ir al menú Ver => Bloques Básicos.
+To differentiate code Basic Blocks*D162N8 go to View => Basic Blocks.

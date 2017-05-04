@@ -3,8 +3,8 @@ layout: default
 lang: en
 id: installation
 title: Installation
-prev: es/how-it-works.html
-next: es/using.html
+prev: en/how-it-works.html
+next: en/using.html
 ---
 
 This is our installation markdown file

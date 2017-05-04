@@ -3,17 +3,19 @@ layout: default
 lang: en
 id: modos-de-direccionamiento
 title: Modos de direccionamiento
-prev: es/memoria.html
-next: es/registros-de-proposito-general.html
+prev: en/memoria.html
+next: en/registros-de-proposito-general.html
 ---
 
-El repertorio de instrucciones de la máquina sólo permite direccionamiento de memoria indexado de la forma Inm(Rn).
+Only the indexed addressing is allowed: Imm(Rn).
 
-La dirección se calcula sumando al valor del registro indicado (Rn) el valor inmediato (Inm). Los accesos a memoria se hacen siempre a palabras completas, de tal manera que el valor inmediato se interpreta directamente como un valor de palabra (y no como byte, como suele ser más habitual).
+The address is computed by adding the immediate value (Inm) to the value read from the register (Rn) . 
+Memory accesses are always computed as complete words, i.e. the immediate value is interpreted as a word value (and not as a byte value). 
 
-## Ejemplo
+## Example
 
-// En este ejemplo se accede a la palabra de memoria 5 (3 + 2) para guardar el contenido de R1
+```
+// This example access to memory word 5 (3 + 2) to store R1 contents
 ADDI	 R4 R0 #2
-SW		 R1 3(R4)
-
+SI		 R1 3(R4)
+```

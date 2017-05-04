@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: menu-ejecutar
 title: Menú Ejecutar
-prev: es/menu-configurar.html
-next: es/menu-ventana.html
+prev: menu-configurar.html
+next: menu-ventana.html
 ---
 
 Contiene todas las herramientas para realizar las simulaciones.

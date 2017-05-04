@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: reorder-buffer
 title: Reorder Buffer
-prev: es/tabla-de-prediccion-de-salto.html
-next: es/estaciones-de-reserva.html
+prev: tabla-de-prediccion-de-salto.html
+next: estaciones-de-reserva.html
 ---
 
 Estructura que permite la ejecución fuera de orden (out of order) conservando el orden de graduación (commit) de las instrucciones.

@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: barra-de-herramientas-estandar
 title: Barra de herramientas estándar
-prev: es/menu-ayuda.html
-next: es/barra-de-herramientas-de-ejecucion.html
+prev: menu-ayuda.html
+next: barra-de-herramientas-de-ejecucion.html
 ---
 
 Contiene las opciones más comunes del programa.

@@ -3,15 +3,10 @@ layout: default
 lang: en
 id: menu-archivo
 title: Menú archivo
-prev: es/instruction-level-paralelism.html
-next: es/menu-ver.html
+prev: en/instruction-level-paralelism.html
+next: en/menu-ver.html
 ---
 
-## Abrir...
+## Open...
 
-Permite abrir un fichero con código secuencial.
-
-
-## Salir
-
-Termina la ejecución del programa.
+Use this menu item to open an existing sequential code file.

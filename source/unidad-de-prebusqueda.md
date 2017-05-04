@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: unidad-de-prebusqueda
 title: Unidad de prebúsqueda
-prev: es/maquina-superescalar.html
-next: es/decodificador.html
+prev: maquina-superescalar.html
+next: decodificador.html
 ---
 
 La Unidad de Prebúsqueda (Prefetch Unit) se encarga de adquirir de forma transparente al resto de la máquina las instrucciones del flujo de ejecución.

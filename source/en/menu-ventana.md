@@ -3,23 +3,23 @@ layout: default
 lang: en
 id: menu-ventana
 title: Menú Ventana
-prev: es/menu-ejecutar.html
-next: es/menu-ayuda.html
+prev: en/menu-ejecutar.html
+next: en/menu-ayuda.html
 ---
 
-Contiene las opciones para el control de las ventanas de la aplicación.
+This menu contains the window management options.
 
 
-###	Mosaico
+### Mosaic
 
-Coloca todas las ventanas como un mosaico.
-
-
-### Cascada
-
-Coloca todas las ventanas en cascada.
+Use this menu item to align all application windows.
 
 
-### Restaurar todo
+### Tile
 
-Vuelve a mostrar todas las ventanas que estén minimizadas.
+Use this menu item to tile all application windows.
+
+
+### Restore all
+
+Use this menu item to restore all minimized windows.

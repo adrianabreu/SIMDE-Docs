@@ -3,9 +3,8 @@ layout: default
 lang: en
 id: calculo-de-direcciones
 title: Cálculo de direcciones
-prev: es/estaciones-de-reserva.html
-next: es/referencias.html
+prev: en/estaciones-de-reserva.html
+next: en/referencias.html
 ---
 
-La ALU de Cálculo de Direcciones es una U.F.*D162M0 especial de la máquina Superescalar que se encarga únicamente del cálculo de la dirección de una instrucción de memoria, tanto LOADS como STORES.
-
+The memory address ALU is a special FU*D162M0 of the Superscalar processor that computes the memory address of a LOAD or STORE instruction once the base register is available.

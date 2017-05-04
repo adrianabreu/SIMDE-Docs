@@ -3,29 +3,26 @@ layout: default
 lang: en
 id: software-pipelining
 title: Software Pipelining
-prev: es/desenrollado-de-bucles.html
+prev: en/desenrollado-de-bucles.html
 ---
 
-Técnica de reorganización de bucles, de tal manera que en cada iteración se construye con operaciones elegidas de distintas iteraciones del bucle original.
-
 ```
-// Bucle original
+// Original loop
 LOOP:
 	LF 		F1 (R2)
 	ADDF	F2 F1 F0
 	SF		F2 (R2)
-	ADDI 	R2 R2 #1
+	DADDUI 	R2 R2 #1
 	BNE		R2 R5 LOOP
-```
-```
-// Nuevo bucle (faltan los códigos inicial y final)
+
+// New loop (start-up and finish code ommited)
 LOOP:
-	// SF pertenece a dos iteraciones antes
+	// SF belongs to 2 previous iterations
 	SF 		F2 (R2)
-	// ADDF pertenece a una iteración anterior 
+	// ADDF belongs to 1 previous iteration
 	ADDF	F2 F1 F0
-	// LF es de esta iteración 
+	// LF belongs to this iteration
 	LF 		F1 2(R2)
-	ADDI 	R2 R2 #1
+	DADDUI 	R2 R2 #1
 	BNE		R2 R5 LOOP
 ```

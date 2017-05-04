@@ -3,8 +3,8 @@ layout: default
 lang: es
 id: decodificador
 title: Decodificador
-prev: es/unidad-de-prebusqueda.html
-next: es/rob-registros.html
+prev: unidad-de-prebusqueda.html
+next: rob-registros.html
 ---
 
 El Decodificador (Decoder) se encarga de interpretar las instrucciones para enviarlas a su E.R. correspondiente.

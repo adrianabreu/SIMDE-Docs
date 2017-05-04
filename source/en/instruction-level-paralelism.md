@@ -3,23 +3,20 @@ layout: default
 lang: en
 id: instruction-level-paralelism
 title: ILP
-prev: es/introduccion.html
-next: es/menu-archivo.html
+prev: en/introduccion.html
+next: en/menu-archivo.html
 ---
 
-El Paralelismo a Nivel de Instrucción es la capacidad de un conjunto de instrucciones de poder ser ejecutadas en paralelo.
+Instruction Level Parallelism is the potential ability of a set of instruction to be executed in parallel.
 
-Existen numerosas técnicas que intentan explotar esta capacidad, desde la segmentación hasta la emisión de múltiples instrucciones por ciclo. Es precisamente con este último grupo de máquinas con las que trabaja este simulador.
-
-Existen dos claras vertientes para manejar la emisión múltiple (Multiple Issue), que se ven en los dos puntos siguientes.
+There are lots of techniques that try to exploit ILP such as segmentation or Multiple Issue. This simulator illustrates two basic flavours of processors with multiple instruction issue per clock.
 
 
-## Planificación Dinámica de Instrucciones
+## Dynamic Instruction Scheduling
 
-El hardware se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se emplea una ejecución fuera de orden (out_of_order). Las máquinas Superescalares*D162M1 suelen emplear esta técnica. 
+Instructions are reordered by hardware in order to exploit parallelism. It results in an out-of-order execution.  Most of Superscalar processors use this kind of execution . 
 
 
-## Planificación Estática de Instrucciones
+## Static Instruction Scheduling
 
-El compilador se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se consigue una gran simplificación del hardware. Emplea ejecución en orden (in_order). Esta es la técnica básica en las máquinas VLIW*D162N0.
-
+Instructions are reordered by the compiler in order to exploit parallelism. Thus, hardware is significantly reduced. It results in an in-order execution and this is the basic technique that VLIW processors employe.

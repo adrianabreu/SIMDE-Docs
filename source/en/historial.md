@@ -2,23 +2,31 @@
 layout: default
 lang: en
 id: historial
-title: Historial
+title: History
 prev: en/how-it-works.html
 next: en/using.html
 ---
 
-### v1.1 06/07/2004
+## v1.1 06/07/2004
 
-1. Añadidas opciones de menú Cargar/Crear código VLIW en menú principal
-2. Añadido menú emergente en ventana de edición de códigos VLIW
-3. Corregido bug tras abrir un fichero de código secuencial incorrecto que no permitía abrir ningún otro fichero
-4. Corregido bug que no permitía hacer uso de la tecla 'supr' para borrar una operación de una instrucción larga
+* "Load/Create VLIW code" menu options added to main menu.
+* Pop-up menu added in VLIW code edition window.
+* Bug fixed when trying to open a new sequential code file after open an erroneous one.
+* Bug fixed when trying to use the 'del' key to delete an operation from a long instruction.
 
-### v1.2b 16/03/2005
+## v1.1 English 25/10/2004
 
-1. Corregidos varios bugs
-2. Versión dual inglés/español disponible. El programa detecta el lenguaje del pc automáticamente. Existe una opción en pruebas para modificar dinámicamente este lenguaje.
-3. Incluidas constantes negativas en offsets y valores inmediatos.
-4. Cambiados los mnemónicos de varias instrucciones para una mayor precisión con el repertorio MIPS: DADDUI => ADDI, ADDI => ADD, MULTI => MULT, SI => SW, LI => LW.
+Finished the English version of the program.
 
-**Este cambio supone que esta versión de  SIMDE no es compatible con las versiones anteriores del programa.**
+## v1.2b English/Spanish 16/03/2005
+
+* Dual English/Spanish version. The program automatically detects the pc language. 
+* Negative constants are now available in offsets and immediate additions.
+* Some mnemonics has been changed for accuracy: DADDUI => ADDI; ADDI => ADD; MULTI => MULT; SI => SW; LI => LW.
+This means that this version doesn't maintain backward compatibility with old versions of SIMDE.
+
+## v1.3 English/Spanish 11/07/2005
+
+* "Load/Save contents of memory and registers" option added.
+* English Help rewrited and corrected
+* Some minor bugs fixed

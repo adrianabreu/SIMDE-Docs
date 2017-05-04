@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: barra-de-herramientas-de-ejecucion
-title: Barra de herramientas de ejecución
+title: Execution Tool Bar
 prev: en/barra-de-herramientas-estandar.html
 next: en/ventana-de-instrucciones.html
 ---

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: ventana-simulacion
-title: Ventana de simulación
+title: Simulation window
 prev: en/ventana-registros-memoria.html
 next: en/fichero-de-codigo-secuencial.html
 ---

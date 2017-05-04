@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: registros-de-punto-flotante
-title: Registros de punto flotante
+title: Floating Point Registers
 prev: en/registros-de-proposito-general.html
 next: en/unidades-funcionales.html
 ---

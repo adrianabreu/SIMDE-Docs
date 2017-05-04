@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: modos-de-direccionamiento
-title: Modos de direccionamiento
+title: Addressing modes
 prev: en/memoria.html
 next: en/registros-de-proposito-general.html
 ---

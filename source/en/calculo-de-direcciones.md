@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: calculo-de-direcciones
-title: Cálculo de direcciones
+title: Memory Address ALU 
 prev: en/estaciones-de-reserva.html
 next: en/referencias.html
 ---

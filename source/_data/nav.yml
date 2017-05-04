@@ -1,5 +1,5 @@
 - titleEs: Inicio
-  titleEn: Inicio
+  titleEn: Begin
   items:
   - id: index
     titleEs: Indice
@@ -33,103 +33,103 @@
     titleEn: Help menu
   - id: barra-de-herramientas-estandar
     titleEs: Barra de herramientas estándar
-    titleEn: Barra de herramientas estándar
+    titleEn: Standard Tool Bar
   - id: barra-de-herramientas-de-ejecucion
     titleEs: Barra de herramientas de ejecución
-    titleEn: Barra de herramientas de ejecución
+    titleEn: Execution Tool Bar
   - id: ventana-de-instrucciones
     titleEs: Ventana de instrucciones
-    titleEn: Ventana de instrucciones
+    titleEn: Instruction Window
   - id: configurar-parametros-superescalar
     titleEs: Configurar párametros superescalar
-    titleEn: Configurar párametros superescalar
+    titleEn: Superscalar Configuration
   - id: ventana-registros-memoria 
     titleEs: Ventana registros memoria
-    titleEn: Ventana registros memoria
+    titleEn: Register and Memory Window
   - id: ventana-simulacion
     titleEs: Ventana de simulación
-    titleEn: Ventana de simulación
+    titleEn: Simulation window
 - titleEs: Desarrollo
-  titleEn: Desarrollo
+  titleEn: Development
   items: 
   - id: fichero-de-codigo-secuencial
     titleEs: Fichero codigo secuencial
-    titleEn: Fichero codigo secuencial
+    titleEn: Sequential Code File
   - id: ejemplo-de-codigo-secuencial
     titleEs: Ejemplo de código secuencial
-    titleEn: Ejemplo de código secuencial
-- titleEs: Caracterísitcas comunes
-  titleEn: Caracterísitcas comunes
+    titleEn: Sequential Code Example
+- titleEs: Características comunes
+  titleEn: Shared characteristics
   items:
    - id: estructura-comun
      titleEs: Estructura común
-     titleEn: Estructura común
+     titleEn: Shared structure
    - id: juego-de-instrucciones
      titleEs: Juego de instrucciones
-     titleEn: Juego de instrucciones
+     titleEn: Instruction Set
    - id: memoria
      titleEs: Memoria
-     titleEn: Memoria
+     titleEn: Memory
    - id: modos-de-direccionamiento
      titleEs: Modos de direccionamiento
-     titleEn: Modos de direccionamiento
+     titleEn: Addressing modes
    - id: registros-de-proposito-general
      titleEs: Registros de propósito general
-     titleEn: Registros de propósito general
+     titleEn: General Purpose Registers
    - id: registros-de-punto-flotante
      titleEs: Registros de punto flotante
-     titleEn: Registros de punto flotante
+     titleEn: Floating Point Registers
    - id: unidades-funcionales
      titleEs: Unidades funcionales
-     titleEn: Unidades funcionales
+     titleEn: Functional Units
 - titleEs: Máquina superescalar
-  titleEn: Máquina superescalar
+  titleEn: Superescalar Machine
   items:
   - id: maquina-superescalar
     titleEs: Máquina superescalar
-    titleEn: Máquina superescalar
+    titleEn: Superescalar Machine
   - id: unidad-de-prebusqueda
     titleEs: Unidad de prebúsqueda
-    titleEn: Unidad de prebúsqueda
+    titleEn: Prefetch Unit
   - id: decodificador
     titleEs: Decodificador
-    titleEn: Decodificador
+    titleEn: Decoder
   - id: rob-registros
     titleEs: ROB <-> Registros
-    titleEn: ROB <-> Registros
+    titleEn: ROB <-> Registers
   - id: tabla-de-prediccion-de-salto
     titleEs: Prediccion de salto
-    titleEn: Prediccion de salto
+    titleEn: Branch prediction
   - id: reorder-buffer
     titleEs: Reorder Buffer
     titleEn: Reorder Buffer
   - id: estaciones-de-reserva
     titleEs: Estaciones de reserva
-    titleEn: Estaciones de reserva
+    titleEn: Reserve Stations
   - id: calculo-de-direcciones
     titleEs: Cálculo de direcciones 
-    titleEn: Cálculo de direcciones 
+    titleEn: Memory Address ALU 
 - titleEs: Acerca de 
-  titleEn: Acerca de 
+  titleEn: About 
   items:
   - id: referencias
     titleEs: Referencias
-    titleEn: Referencias
+    titleEn: References
   - id: historial
     titleEs: Historial
-    titleEn: Historial
+    titleEn: History
   - id: autor
     titleEs: Contactar con el autor
-    titleEn: Contactar con el autor
+    titleEn: Contact with the author
 - titleEs: Extra
   titleEn: Extra
   items:
   - id: bloques-basicos
     titleEs: Bloques básicos
-    titleEn: Bloques básicos
+    titleEn: Basic block
   - id: desenrollado-de-bucles
     titleEs: Desenrollado de bucles 
-    titleEn: Desenrollado de bucles 
+    titleEn: Loop unrolling 
   - id: software-pipelining
     titleEs: Software Pipelining
     titleEn: Software Pipelining

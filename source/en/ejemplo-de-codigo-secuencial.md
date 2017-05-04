@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: ejemplo-de-codigo-secuencial
-title: Ejemplo de código secuencial
+title: Sequential Code Example
 prev: en/fichero-de-codigo-secuencial.html
 next: en/estructura-comun.html
 ---

@@ -14,8 +14,8 @@ timezone: GMT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://demosimde.azurewebsites.net/simde-documentation
-root: /simde-documentation/
+url: http://demosimde.azurewebsites.net/docs
+root: /docs
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: unidad-de-prebusqueda
-title: Unidad de prebúsqueda
+title: Prefetch Unit
 prev: en/maquina-superescalar.html
 next: en/decodificador.html
 ---

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-ayuda
-title: Menú Ayuda
+title: Help menu
 prev: en/menu-ventana.html
 next: en/barra-de-herramientas-estandar.html
 ---

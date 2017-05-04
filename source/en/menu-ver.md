@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-ver
-title: Menú ver
+title: View menu
 prev: en/menu-archivo.html
 next: en/menu-configurar.html
 ---

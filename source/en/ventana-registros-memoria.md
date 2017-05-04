@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: ventana-registros-memoria
-title: Ventana de Registros - Memoria
+title: Register and Memory Window
 next: en/ventana-simulacion.html
 prev: en/configurar-parametros-superescalar.html
 ---
@@ -14,7 +14,9 @@ There are two different ways for showing General Purpose or Floating Point Regis
 2. Use the components combo box from the Execution Tool Bar*D162K0.
 
 
-![Ventana registro](imgs/bm19_result.png)This window allows the user to see a subset of registers (or memory positions) of the current component.
+![Ventana registro](imgs/bm18_result.png) 
+
+This window allows the user to see a subset of registers (or memory positions) of the current component.
 
 The first column shows the register index or memory position. The second one shows the value associated to this index/position (floating point values are rounded to 3 decimals).
 

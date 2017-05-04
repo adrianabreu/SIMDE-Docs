@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: rob-registros
-title: ROB<->Registros
+title: ROB<->Registers
 prev: en/decodificador.html
 next: en/tabla-de-prediccion-de-salto.html
 ---

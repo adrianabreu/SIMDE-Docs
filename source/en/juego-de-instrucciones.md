@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: juego-de-instrucciones
-title: Juego de instrucciones
+title: Instruction Set
 prev: en/estructura-comun.html
 next: en/memoria.html
 ---

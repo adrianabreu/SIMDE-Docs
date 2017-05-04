@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: memoria
-title: Memoria
+title: Memory
 prev: en/juego-de-instrucciones.html
 next: en/modos-de-direccionamiento.html
 ---

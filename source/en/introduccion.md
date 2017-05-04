@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: introduccion
-title: Introducción
+title: Introduction
 prev: en/index.html
 next: en/instruction-level-paralelism.html
 ---

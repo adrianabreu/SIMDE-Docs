@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: autor
-title: Contactar con el autor
+title: Contact with the autor
 prev: en/referencias.html
 next: en/bloques-basicos.html
 ---

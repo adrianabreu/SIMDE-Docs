@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: index
-title: Bienvenido
+title: Welcome
 next: en/introduccion.html
 ---
 

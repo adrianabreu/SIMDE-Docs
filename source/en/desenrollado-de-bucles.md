@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: desenrolladodebucles
-title: Desenrollado de bucles
+title: Loop unrolling
 prev: en/bloques-basicos.html
 next: en/software-pipelining.html
 ---

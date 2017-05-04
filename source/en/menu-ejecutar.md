@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-ejecutar
-title: Menú Ejecutar
+title: Execute menu
 prev: en/menu-configurar.html
 next: en/menu-ventana.html
 ---

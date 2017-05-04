@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: estructura-comun
-title: Estructura común
+title: Shared structure
 prev: en/ejemplo-de-codigo-secuencial.html
 next: en/juego-de-instrucciones.html
 ---

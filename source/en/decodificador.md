@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: decodificador
-title: Decodificador
+title: Decoder
 prev: en/unidad-de-prebusqueda.html
 next: en/rob-registros.html
 ---

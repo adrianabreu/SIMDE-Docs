@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: estaciones-de-reserva
-title: Estaciones de reserva
+title: Reserve Stations
 prev: en/reorder-buffer.html
 next: en/calculo-de-direcciones.html
 ---

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-archivo
-title: Menú archivo
+title: File menu
 prev: en/instruction-level-paralelism.html
 next: en/menu-ver.html
 ---

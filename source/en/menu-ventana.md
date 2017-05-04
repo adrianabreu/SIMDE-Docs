@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-ventana
-title: Menú Ventana
+title: Window menu
 prev: en/menu-ejecutar.html
 next: en/menu-ayuda.html
 ---

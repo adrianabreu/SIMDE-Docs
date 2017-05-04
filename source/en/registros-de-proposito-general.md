@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: registros-de-proposito-general
-title: Registros de propósito general
+title: General Purpose Registers
 prev: en/modos-de-direccionamiento.html
 next: en/registros-de-punto-flotante.html
 ---

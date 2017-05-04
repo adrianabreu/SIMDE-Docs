@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: configurar-parametros-superescalar
-title: Configurar parámetros Superescalar
+title: Superscalar Configuration
 prev: en/ventana-de-instrucciones.html
 next: en/ventana-registros-memoria.html
 ---

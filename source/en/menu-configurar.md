@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: menu-configurar
-title: Menú Configurar
+title: Config menu
 prev: en/menu-ver.html
 next: en/menu-ejecutar.html
 ---

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: barra-de-herramientas-estandar
-title: Barra de herramientas estándar
+title: Standard Tool Bar
 prev: en/menu-ayuda.html
 next: en/barra-de-herramientas-de-ejecucion.html
 ---

@@ -14,7 +14,7 @@
       SIMDE
     </div>
    <div id="lang-select-wrap">
-      <select id="lang-select">
+      <select class="language" id="lang-select">
         {% for lang in site.data.languages %}
           <option value="{{ loop.key }}"{% if page.lang === loop.key %} selected{% endif %}>{{ loop.key }}</option>
         {% endfor %}

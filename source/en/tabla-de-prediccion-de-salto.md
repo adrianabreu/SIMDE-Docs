@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: tabla-de-prediccion-de-salto
-title: Tabla de predicción de salto
+title: Branch prediction
 prev: en/rob-registros.html
 next: en/reorder-buffer.html
 ---

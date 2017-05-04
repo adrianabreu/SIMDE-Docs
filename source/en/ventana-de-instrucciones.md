@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: ventana-de-instrucciones
-title: Ventana de instrucciones
+title: Instruction Window
 prev: en/barra-de-herramientas-de-ejecucion.html
 next: en/configurar-parametros-superescalar.html
 ---

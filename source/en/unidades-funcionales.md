@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: unidades-funcionales
-title: Unidades funcionales
+title: Functional Units
 prev: en/registros-de-punto-flotante.html
 next: en/maquina-superescalar.html
 ---

@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: fichero-de-codigo-secuencial
-title: Fichero de código secuencial
+title: Sequential Code File
 prev: en/ventana-simulacion.html
 next: en/ejemplo-de-codigo-secuencial.html
 ---

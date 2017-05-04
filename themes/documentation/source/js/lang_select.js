@@ -7,10 +7,10 @@
       if (lang) lang += '/';
 
       if (location.href.split('/').length === 4) {
-         location.href = '/simde-documentation/' + lang;
+         location.href = '/docs/' + lang;
       } else {
          var currentLocation = location.href.split('/')[location.href.split('/').length - 1];
-         location.href = '/simde-documentation/' + lang + currentLocation;
+         location.href = '/docs/' + lang + currentLocation;
       }
    }
 

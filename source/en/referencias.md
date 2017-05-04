@@ -2,7 +2,7 @@
 layout: default
 lang: en
 id: referencias
-title: Referencias
+title: References
 prev: en/calculo-de-direcciones.html
 next: en/autor.html
 ---

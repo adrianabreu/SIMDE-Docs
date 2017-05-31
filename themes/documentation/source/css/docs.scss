@@ -1,6 +1,7 @@
 // Colors
 $bordersColor: #efefef;
-$primary: #10CF93;
+$primary: #7A3B7A;
+$button-text-color: white;
 
 // Sizes
 $menuWidth: 300px;
@@ -16,4 +17,6 @@ body {
 
 .language {
    margin-left: 15px;
+   border-radius: 5px;
+   font-size: 18px;
 }

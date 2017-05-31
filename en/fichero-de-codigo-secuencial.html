@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet='utf-8' />
+  <title>SIMDE - Sequential Code File</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
+  <link href='/docs/css/docs.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class='menu'>
+    <div class='logo'>
+      SIMDE
+    </div>
+   <div id="lang-select-wrap">
+      <select class="language" id="lang-select">
+        
+          <option value="es">es</option>
+        
+          <option value="en" selected>en</option>
+        
+      </select>
+    </div>
+    <nav class='menu-nav'>
+      
+        <ul class='nav'>
+        
+          <span>Begin</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='index.html'>Index</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='introduccion.html'>Introduction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='instruction-level-paralelism.html'>ILP</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Interface</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='menu-archivo.html'>File menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ver.html'>View menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-configurar.html'>Config menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ejecutar.html'>Execute menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ventana.html'>Window menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ayuda.html'>Help menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-estandar.html'>Standard Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-de-ejecucion.html'>Execution Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-de-instrucciones.html'>Instruction Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='configurar-parametros-superescalar.html'>Superscalar Configuration</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-registros-memoria.html'>Register and Memory Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-simulacion.html'>Simulation window</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Development</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='fichero-de-codigo-secuencial.html' class='active'>Sequential Code File</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ejemplo-de-codigo-secuencial.html'>Sequential Code Example</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Shared characteristics</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='estructura-comun.html'>Shared structure</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='juego-de-instrucciones.html'>Instruction Set</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='memoria.html'>Memory</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='modos-de-direccionamiento.html'>Addressing modes</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-proposito-general.html'>General Purpose Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-punto-flotante.html'>Floating Point Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidades-funcionales.html'>Functional Units</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Superescalar Machine</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='maquina-superescalar.html'>Superescalar Machine</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidad-de-prebusqueda.html'>Prefetch Unit</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='decodificador.html'>Decoder</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='rob-registros.html'>ROB <-> Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='tabla-de-prediccion-de-salto.html'>Branch prediction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='reorder-buffer.html'>Reorder Buffer</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='estaciones-de-reserva.html'>Reserve Stations</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='calculo-de-direcciones.html'>Memory Address ALU</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>About</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='referencias.html'>References</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='historial.html'>History</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='autor.html'>Contact with the author</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Extra</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='bloques-basicos.html'>Basic block</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='desenrollado-de-bucles.html'>Loop unrolling</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='software-pipelining.html'>Software Pipelining</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+  </div>
+  <div class='page'>
+    <div class='page-content'>
+      <h1>Sequential Code File</h1>
+      <p>The input sequential code files allows the user to easily define a sequential code with any text editor. The .pla extension is required for all code files.</p>
+<h3 id="Characteristics"><a href="#Characteristics" class="headerlink" title="Characteristics"></a>Characteristics</h3><p>File must be created with the following characteristics:</p>
+<ul>
+<li>The first line (not a commentary) must contain the number of instructions of code.</li>
+<li>Each instruction must be placed in a new line.</li>
+<li>Operands are separated with blanks or tabs.</li>
+<li>Labels must be placed at the start of the line and always finishes with a “:”.</li>
+<li>Commentaries start with “//“. From here to the end of the line will be considered as a commentary.</li>
+</ul>
+<h3 id="Instructions"><a href="#Instructions" class="headerlink" title="Instructions"></a>Instructions</h3><p>The instructions are inspired in the MIPS IV repertory. We use the next nomenclature:</p>
+<ul>
+<li>Rn General Purpose Register n. <pre><code>f. i.  R1, R0...
+</code></pre></li>
+<li>Fm Floating Point Register m. <pre><code>f. i.  F1, F0...
+</code></pre></li>
+<li>#n Inmediate value n. <pre><code>f. i.  #12, #0...
+</code></pre></li>
+<li>n(Rm) Memory address. <pre><code>f. i.  (R1), 3(R4)...
+</code></pre></li>
+<li>LAB: Branch destiny label. <pre><code>f. i.  LOOP1:, END:...
+</code></pre></li>
+</ul>
+<p>The allowed instructions*D162L4 are:</p>
+<ul>
+<li>ADDI        Rn Rm #i</li>
+<li>ADD        Rn Rm Rp</li>
+<li>SUB        Rn Rm Rp</li>
+<li>AND        Rn Rm Rp</li>
+<li>OR        Rn Rm Rp</li>
+<li>NOR        Rn Rm Rp</li>
+<li>XOR        Rn Rm Rp</li>
+<li>SLLV        Rn Rm Rp</li>
+<li>SRLV        Rn Rm Rp</li>
+<li>MULT        Rn Rm Rp</li>
+<li>ADDF        Fn Fm Fp</li>
+<li>SUBF        Fn Fm Fp</li>
+<li>MULTF        Fn Fm Fp</li>
+<li>LW        Rn i(Rm)</li>
+<li>LF            Fn i(Rm)</li>
+<li>SW        Rn i(Rm)</li>
+<li>SF            Fn i(Rm)</li>
+<li>BNE        Rn Rm LAB</li>
+<li>BEQ        Rn Rm LAB</li>
+<li>BGT        Rn Rm LAB</li>
+</ul>
+
+    </div>
+  </div>
+  <div class='switch-page'>
+    
+      <a class='previous' href='/docs/en/ventana-simulacion.html'><i class='fa fa-angle-left fa-3x'></i></a>
+    
+    
+      <a class='next' href='/docs/en/ejemplo-de-codigo-secuencial.html'><i class='fa fa-angle-right fa-3x'></i></a>
+    
+  </div>
+    <script src='/docs/js/lang_select.js'></script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet='utf-8' />
+  <title>SIMDE - Simulation window</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
+  <link href='/docs/css/docs.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class='menu'>
+    <div class='logo'>
+      SIMDE
+    </div>
+   <div id="lang-select-wrap">
+      <select class="language" id="lang-select">
+        
+          <option value="es">es</option>
+        
+          <option value="en" selected>en</option>
+        
+      </select>
+    </div>
+    <nav class='menu-nav'>
+      
+        <ul class='nav'>
+        
+          <span>Begin</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='index.html'>Index</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='introduccion.html'>Introduction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='instruction-level-paralelism.html'>ILP</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Interface</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='menu-archivo.html'>File menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ver.html'>View menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-configurar.html'>Config menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ejecutar.html'>Execute menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ventana.html'>Window menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ayuda.html'>Help menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-estandar.html'>Standard Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-de-ejecucion.html'>Execution Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-de-instrucciones.html'>Instruction Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='configurar-parametros-superescalar.html'>Superscalar Configuration</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-registros-memoria.html'>Register and Memory Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-simulacion.html' class='active'>Simulation window</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Development</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='fichero-de-codigo-secuencial.html'>Sequential Code File</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ejemplo-de-codigo-secuencial.html'>Sequential Code Example</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Shared characteristics</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='estructura-comun.html'>Shared structure</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='juego-de-instrucciones.html'>Instruction Set</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='memoria.html'>Memory</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='modos-de-direccionamiento.html'>Addressing modes</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-proposito-general.html'>General Purpose Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-punto-flotante.html'>Floating Point Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidades-funcionales.html'>Functional Units</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Superescalar Machine</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='maquina-superescalar.html'>Superescalar Machine</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidad-de-prebusqueda.html'>Prefetch Unit</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='decodificador.html'>Decoder</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='rob-registros.html'>ROB <-> Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='tabla-de-prediccion-de-salto.html'>Branch prediction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='reorder-buffer.html'>Reorder Buffer</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='estaciones-de-reserva.html'>Reserve Stations</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='calculo-de-direcciones.html'>Memory Address ALU</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>About</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='referencias.html'>References</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='historial.html'>History</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='autor.html'>Contact with the author</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Extra</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='bloques-basicos.html'>Basic block</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='desenrollado-de-bucles.html'>Loop unrolling</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='software-pipelining.html'>Software Pipelining</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+  </div>
+  <div class='page'>
+    <div class='page-content'>
+      <h1>Simulation window</h1>
+      <p>This window shows the basic structure of the superscalar processor.<br><img src="imgs/bm25_result.png" alt=""></p>
+<h3 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h3><ul>
+<li><p>Prefetch*D162M2: Prefetch unit.</p>
+</li>
+<li><p>Decoder*D162M3: Decoder Unit</p>
+</li>
+<li><p>ROB&lt;-&gt;GPR*D162M4: This grid shows the ROB entry where a General Purpose Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using <img src="imgs/bm26_result.png" alt=""> and <img src="imgs/bm21_result.png" alt="">. The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). </p>
+</li>
+<li><p>ROB&lt;-&gt;FPR*D162M5: This grid shows the ROB entry where a Floating Point Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using <img src="imgs/bm27_result.png" alt=""> and <img src="imgs/bm21_result.png" alt="">. The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). </p>
+</li>
+<li><p>Branch Prediction*D162M6: 2-bit Branch Prediction Table. Any entry p is allowed to take T or F as its value. A F value implies that any branch instruction with identifier i (i mod p = 0) will be not taken; the branch is taken if value is T. A binary value that represents the current state of the entry is also showed in parentheses.</p>
+</li>
+<li><p>ROB*D162M7: Reorder Buffer. </p>
+</li>
+<li><p>RE*D162M8: Reservation Stations. </p>
+</li>
+<li><p>FU*D162M0: Functional Units. The name of the FU is showed on top. There are as many columns as FU declared of this type. Each column represents a FU. The rows represents the FU pipeline.</p>
+</li>
+</ul>
+<h3 id="Adjust-Component-Height-and-Width"><a href="#Adjust-Component-Height-and-Width" class="headerlink" title="Adjust Component Height and Width"></a>Adjust Component Height and Width</h3><p>Click on the component borders and drag to change the height and width of the component. To hide a FU or ER make a double-click on its name. To show the unit make double-click again.</p>
+<h3 id="Colouring-instructions"><a href="#Colouring-instructions" class="headerlink" title="Colouring instructions"></a>Colouring instructions</h3><p>Double-click on any ROB entry marks an instruction. Then you can select a color for this ROB entry and the corresponding ER and UF entries will be coloured too.</p>
+
+    </div>
+  </div>
+  <div class='switch-page'>
+    
+      <a class='previous' href='/docs/en/ventana-registros-memoria.html'><i class='fa fa-angle-left fa-3x'></i></a>
+    
+    
+      <a class='next' href='/docs/en/fichero-de-codigo-secuencial.html'><i class='fa fa-angle-right fa-3x'></i></a>
+    
+  </div>
+    <script src='/docs/js/lang_select.js'></script>
+</body>
+</html>

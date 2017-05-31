@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet='utf-8' />
+  <title>SIMDE - Tabla de predicción de salto</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
+  <link href='/docs/css/docs.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class='menu'>
+    <div class='logo'>
+      SIMDE
+    </div>
+   <div id="lang-select-wrap">
+      <select class="language" id="lang-select">
+        
+          <option value="es" selected>es</option>
+        
+          <option value="en">en</option>
+        
+      </select>
+    </div>
+    <nav class='menu-nav'>
+      
+        <ul class='nav'>
+        
+                
+                <span>Inicio</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='index.html'>Indice</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='introduccion.html'>Introducción</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='instruction-level-paralelism.html'>ILP</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Interfaz</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='menu-archivo.html'>Menú archivo</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ver.html'>Menú ver</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-configurar.html'>Menú configurar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ejecutar.html'>Menú ejecutar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ventana.html'>Menú ventana</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ayuda.html'>Menú ayuda</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='barra-de-herramientas-estandar.html'>Barra de herramientas estándar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='barra-de-herramientas-de-ejecucion.html'>Barra de herramientas de ejecución</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-de-instrucciones.html'>Ventana de instrucciones</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='configurar-parametros-superescalar.html'>Configurar párametros superescalar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-registros-memoria.html'>Ventana registros memoria</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-simulacion.html'>Ventana de simulación</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Desarrollo</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='fichero-de-codigo-secuencial.html'>Fichero codigo secuencial</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ejemplo-de-codigo-secuencial.html'>Ejemplo de código secuencial</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Características comunes</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='estructura-comun.html'>Estructura común</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='juego-de-instrucciones.html'>Juego de instrucciones</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='memoria.html'>Memoria</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='modos-de-direccionamiento.html'>Modos de direccionamiento</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='registros-de-proposito-general.html'>Registros de propósito general</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='registros-de-punto-flotante.html'>Registros de punto flotante</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='unidades-funcionales.html'>Unidades funcionales</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Máquina superescalar</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='maquina-superescalar.html'>Máquina superescalar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='unidad-de-prebusqueda.html'>Unidad de prebúsqueda</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='decodificador.html'>Decodificador</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='rob-registros.html'>ROB <-> Registros</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='tabla-de-prediccion-de-salto.html' class='active'>Prediccion de salto</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='reorder-buffer.html'>Reorder Buffer</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='estaciones-de-reserva.html'>Estaciones de reserva</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='calculo-de-direcciones.html'>Cálculo de direcciones</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Acerca de</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='referencias.html'>Referencias</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='historial.html'>Historial</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='autor.html'>Contactar con el autor</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Extra</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='bloques-basicos.html'>Bloques básicos</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='desenrollado-de-bucles.html'>Desenrollado de bucles</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='software-pipelining.html'>Software Pipelining</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+  </div>
+  <div class='page'>
+    <div class='page-content'>
+      <h1>Tabla de predicción de salto</h1>
+      <p>La Tabla de Predicción de Salto emplea un esquema de 2 bits para predecir si un salto debe ser tomado o no.</p>
+<p>La tabla tiene 16 entradas, que se corresponden con los 4 últimos bits de la posición en memoria de la instrucción de salto.</p>
+<p>El esquema de funcionamiento del algoritmo de 2 bits puede verse en el siguiente dibujo, donde se indica si el salto se toma o no, y las transiciones de estado se deben a si se ha acertado con la última predicción o no:</p>
+<p><img src="imgs/bm41.png" alt=""></p>
+
+    </div>
+  </div>
+  <div class='switch-page'>
+    
+      <a class='previous' href='/docs/rob-registros.html'><i class='fa fa-angle-left fa-3x'></i></a>
+    
+    
+      <a class='next' href='/docs/reorder-buffer.html'><i class='fa fa-angle-right fa-3x'></i></a>
+    
+  </div>
+    <script src='/docs/js/lang_select.js'></script>
+</body>
+</html>

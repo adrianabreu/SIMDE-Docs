@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet='utf-8' />
+  <title>SIMDE - Instruction Set</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
+  <link href='/docs/css/docs.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class='menu'>
+    <div class='logo'>
+      SIMDE
+    </div>
+   <div id="lang-select-wrap">
+      <select class="language" id="lang-select">
+        
+          <option value="es">es</option>
+        
+          <option value="en" selected>en</option>
+        
+      </select>
+    </div>
+    <nav class='menu-nav'>
+      
+        <ul class='nav'>
+        
+          <span>Begin</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='index.html'>Index</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='introduccion.html'>Introduction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='instruction-level-paralelism.html'>ILP</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Interface</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='menu-archivo.html'>File menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ver.html'>View menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-configurar.html'>Config menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ejecutar.html'>Execute menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ventana.html'>Window menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='menu-ayuda.html'>Help menu</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-estandar.html'>Standard Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='barra-de-herramientas-de-ejecucion.html'>Execution Tool Bar</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-de-instrucciones.html'>Instruction Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='configurar-parametros-superescalar.html'>Superscalar Configuration</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-registros-memoria.html'>Register and Memory Window</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ventana-simulacion.html'>Simulation window</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Development</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='fichero-de-codigo-secuencial.html'>Sequential Code File</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='ejemplo-de-codigo-secuencial.html'>Sequential Code Example</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Shared characteristics</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='estructura-comun.html'>Shared structure</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='juego-de-instrucciones.html' class='active'>Instruction Set</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='memoria.html'>Memory</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='modos-de-direccionamiento.html'>Addressing modes</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-proposito-general.html'>General Purpose Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='registros-de-punto-flotante.html'>Floating Point Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidades-funcionales.html'>Functional Units</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Superescalar Machine</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='maquina-superescalar.html'>Superescalar Machine</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='unidad-de-prebusqueda.html'>Prefetch Unit</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='decodificador.html'>Decoder</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='rob-registros.html'>ROB <-> Registers</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='tabla-de-prediccion-de-salto.html'>Branch prediction</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='reorder-buffer.html'>Reorder Buffer</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='estaciones-de-reserva.html'>Reserve Stations</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='calculo-de-direcciones.html'>Memory Address ALU</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>About</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='referencias.html'>References</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='historial.html'>History</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='autor.html'>Contact with the author</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+          <span>Extra</span>
+                          
+                
+          <ul class='nav'>
+            
+              <li>
+                <a href='bloques-basicos.html'>Basic block</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='desenrollado-de-bucles.html'>Loop unrolling</a>
+                
+                
+              </li>
+            
+              <li>
+                <a href='software-pipelining.html'>Software Pipelining</a>
+                
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+  </div>
+  <div class='page'>
+    <div class='page-content'>
+      <h1>Instruction Set</h1>
+      <p>The Instruction Set (Operations in VLIW processor) is a common element for both processors. However some instructions operate in a slightly different way depending on the processor selected.</p>
+<h3 id="ADDI"><a href="#ADDI" class="headerlink" title="ADDI"></a>ADDI</h3><p>Immediate Integer Addition<br>ADDI Rd, Ro1, #Imm<br>Rd = Ro1 + Imm<br>It uses the Integer Add FU.</p>
+<h3 id="ADD"><a href="#ADD" class="headerlink" title="ADD"></a>ADD</h3><p>Integer Addition<br>ADD Rd, Ro1, Ro2<br>Rd = Ro1 + Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="SUB"><a href="#SUB" class="headerlink" title="SUB"></a>SUB</h3><p>Integer Subtraction<br>SUB Rd, Ro1, Ro2<br>Rd = Ro1 - Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="AND"><a href="#AND" class="headerlink" title="AND"></a>AND</h3><p>Bitwise “and”<br>AND Rd, Ro1, Ro2<br>Rd = Ro1 AND Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="OR"><a href="#OR" class="headerlink" title="OR"></a>OR</h3><p>Bitwise “or”<br>OR Rd, Ro1, Ro2<br>Rd = Ro1 OR Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="NOR"><a href="#NOR" class="headerlink" title="NOR"></a>NOR</h3><p>Bitwise “Not or”<br>NOR Rd, Ro1, Ro2<br>Rd = Ro1 NOR Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="XOR"><a href="#XOR" class="headerlink" title="XOR"></a>XOR</h3><p>Bitwise “Exclusive or”<br>XOR Rd, Ro1, Ro2<br>Rd = Ro1 XOR Ro2<br>It uses the Integer Add FU.</p>
+<h3 id="SLLV"><a href="#SLLV" class="headerlink" title="SLLV"></a>SLLV</h3><p>Shift Left Logical Variable<br>SLLV Rd, Ro1, Ro2<br>Rd = Ro2 &lt;&lt; Ro1[4..0]<br>The bit shift count is especified by the low-order five bits of Ro1.<br>It uses the Integer Add FU.</p>
+<h3 id="SRLV"><a href="#SRLV" class="headerlink" title="SRLV"></a>SRLV</h3><p>Shift Right Logical Variable<br>SLLV Rd, Ro1, Ro2<br>Rd = Ro2 &gt;&gt; Ro1[4..0]<br>The bit shift count is especified by the low-order five bits of Ro1.<br>It uses the Integer Add FU.</p>
+<h3 id="MULT"><a href="#MULT" class="headerlink" title="MULT"></a>MULT</h3><p>Integer Multiplication<br>MULT Rd, Ro1, Ro2<br>Rd = Ro1 * Ro2<br>It uses the Integer Multiplication FU.</p>
+<h3 id="ADDF"><a href="#ADDF" class="headerlink" title="ADDF"></a>ADDF</h3><p>Floating Point (FP) Addition<br>ADDF Fd, Fo1, Fo2<br>Fd = Fo1 + Fo2<br>It uses the FP Add FU.</p>
+<h3 id="SUBF"><a href="#SUBF" class="headerlink" title="SUBF"></a>SUBF</h3><p>Floating Point (FP) Subtraction<br>SUBF Fd, Fo1, Fo2<br>Fd = Fo1 - Fo2<br>It uses the FP Add FU.</p>
+<h3 id="MULTF"><a href="#MULTF" class="headerlink" title="MULTF"></a>MULTF</h3><p>FP Multiplication<br>MULTF Fd, Fo1, Fo2<br>Fd = Fo1 * Fo2<br>It uses the FP Multiplication FU.</p>
+<h3 id="LW"><a href="#LW" class="headerlink" title="LW"></a>LW</h3><p>Integer Load<br>LW Rd, Imm(Ro)<br>Rd = MEM[Ro + Imm]<br>It uses the Memory FU.</p>
+<h3 id="LF"><a href="#LF" class="headerlink" title="LF"></a>LF</h3><p>FP Load<br>LF Fd, Imm(Ro)<br>Fd = MEM[Ro + Imm]<br>It uses the Memory FU.</p>
+<h3 id="SW"><a href="#SW" class="headerlink" title="SW"></a>SW</h3><p>Integer Store<br>SW Ro, Imm(Rd)<br>MEM[Rd + Imm] = Ro<br>It uses the Memory FU.</p>
+<h3 id="SF"><a href="#SF" class="headerlink" title="SF"></a>SF</h3><p>FP Store<br>SF Fo, Imm(Rd)<br>MEM[Rd + Imm] = Fo<br>It uses the Memory FU.</p>
+<h3 id="BNE"><a href="#BNE" class="headerlink" title="BNE"></a>BNE</h3><p>Branch if not equal<br>BNE Ro1, Ro2, Label<br>If (Ro1 != Ro2)<br>    Jump to instruction labeled with “Label”<br>It uses the Branch FU.</p>
+<h3 id="BEQ"><a href="#BEQ" class="headerlink" title="BEQ"></a>BEQ</h3><p>Branch if equal<br>BEQ Ro1, Ro2, Label<br>If (Ro1 == Ro2)<br>    Jump to instruction labeled with “Label”<br>It uses the Branch FU.</p>
+<h3 id="BGT"><a href="#BGT" class="headerlink" title="BGT"></a>BGT</h3><p>Branch if greater<br>BGT Ro1, Ro2, Label<br>If (Ro1 &gt; Ro2)<br>    Jump to instruction labeled with “Label”<br>It uses the Branch FU.</p>
+
+    </div>
+  </div>
+  <div class='switch-page'>
+    
+      <a class='previous' href='/docs/en/estructura-comun.html'><i class='fa fa-angle-left fa-3x'></i></a>
+    
+    
+      <a class='next' href='/docs/en/memoria.html'><i class='fa fa-angle-right fa-3x'></i></a>
+    
+  </div>
+    <script src='/docs/js/lang_select.js'></script>
+</body>
+</html>

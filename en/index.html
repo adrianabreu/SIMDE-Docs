@@ -6,7 +6,7 @@
   <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
-  <link href='/docs/css/docs.css' rel='stylesheet'>
+  <link href='/SIMDE-Docs/css/docs.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -33,13 +33,7 @@
           <ul class='nav'>
             
               <li>
-                <a href='index.html' class='active'>Index</a>
-                
-                
-              </li>
-            
-              <li>
-                <a href='introduccion.html'>Introduction</a>
+                <a href='index.html' class='active'>Introduction</a>
                 
                 
               </li>
@@ -320,6 +314,12 @@
                 
               </li>
             
+              <li>
+                <a href='codigos-ejemplo.html'>Example codes</a>
+                
+                
+              </li>
+            
           </ul>
         </ul>
       
@@ -328,16 +328,39 @@
   <div class='page'>
     <div class='page-content'>
       <h1>Welcome</h1>
-      <p>Posible mensaje de bienvenida, quizas indice de las partes<br>más importantes…</p>
+      <h2 id="What’s-SIMDE"><a href="#What’s-SIMDE" class="headerlink" title="What’s SIMDE?"></a>What’s SIMDE?</h2><p>SIMDE is a simulator for supporting teaching of <strong>ILP</strong> (Instruction Level Parallelism) Architectures. It includes two characteristic flavours of ILP architectures: </p>
+<ul>
+<li>Dynamic Scheduling: Taking a  Superscalar processor as an example.</li>
+<li>Static Scheduling: Taking a VLIW processor as an example.</li>
+</ul>
+<p>The simulator places emphasis on similarities and differences between superscalar and VLIW processors because of its educative purposes.</p>
+<h2 id="What-can’t-you-expect-from-SIMDE"><a href="#What-can’t-you-expect-from-SIMDE" class="headerlink" title="What can’t you expect from SIMDE?"></a>What can’t you expect from SIMDE?</h2><p><strong>SIMDE</strong> is not intended to be a realistic simulator. It contains a lot of simplifications in its design that try to clarify the functionalities at the expense of a rigorous approach. Some components are designed in such a way that makes imposible a realistic implementation.</p>
+<p>The VLIW design is extremely simple to incide in the differences with the superscalar processor. This design is useful only as a theoretical approach.</p>
+<p><strong>SIMDE</strong> is not a VLIW compiler. The code optimization and scheduling are made by the user.</p>
+<h2 id="Functionalities"><a href="#Functionalities" class="headerlink" title="Functionalities"></a>Functionalities</h2><p>SIMDE allows to:</p>
+<ul>
+<li><p>Load a single sequential code each time. This code will be used as basis for superscalar executions and design of VLIW codes.</p>
+</li>
+<li><p>Modify processor parameters for both Superscalar and VLIW processors.</p>
+</li>
+<li><p>Create, load or modify a (very) long instruction code that can be used in VLIW simulations. Different tools (like basic blocks coloring or a code automatic-checking for detecting inconsistences) have been added in order to simplify the creation of VLIW codes.</p>
+</li>
+<li><p>Modify contents from registers and memory.</p>
+</li>
+<li><p>Carry out continuous or step by step simulations of Superscalar processor. The use of breakpoints is allowed to stop the execution at any point of code.</p>
+</li>
+<li><p>Carry out continuous or step by step simulations of VLIW processor. The use of breakpoints is allowed to stop the execution at any point of code.</p>
+</li>
+</ul>
 
     </div>
   </div>
   <div class='switch-page'>
     
     
-      <a class='next' href='/docs/en/introduccion.html'><i class='fa fa-angle-right fa-3x'></i></a>
+      <a class='next' href='/SIMDE-Docs/en/instruction-level-paralelism.html'><i class='fa fa-angle-right fa-3x'></i></a>
     
   </div>
-    <script src='/docs/js/lang_select.js'></script>
+    <script src='/SIMDE-Docs/js/lang_select.js'></script>
 </body>
 </html>

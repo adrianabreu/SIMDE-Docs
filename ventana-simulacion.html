@@ -6,7 +6,7 @@
   <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
-  <link href='/docs/css/docs.css' rel='stylesheet'>
+  <link href='/SIMDE-Docs/css/docs.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -34,13 +34,7 @@
             
               <li>
                 
-                <a href='index.html'>Indice</a>
-                
-              </li>
-            
-              <li>
-                
-                <a href='introduccion.html'>Introducción</a>
+                <a href='index.html'>Introducción</a>
                 
               </li>
             
@@ -320,6 +314,12 @@
                 
               </li>
             
+              <li>
+                
+                <a href='codigos-ejemplo.html'>Códigos de ejemplo</a>
+                
+              </li>
+            
           </ul>
         </ul>
       
@@ -330,23 +330,23 @@
       <h1>Ventana de simulación</h1>
       <p>En esta ventana se observa la estructura básica de la máquina Superescalar.<br><img src="imgs/bm25_result.png" alt=""></p>
 <h2 id="Componentes-mostrados"><a href="#Componentes-mostrados" class="headerlink" title="Componentes mostrados"></a>Componentes mostrados</h2><ul>
-<li><p>Prefetch*D162M2: Unidad de prebúsqueda de instrucciones.</p>
+<li><p>Prefetch: Unidad de prebúsqueda de instrucciones.</p>
 </li>
-<li><p>Decoder*D162M3: Decodificador de las instrucciones</p>
+<li><p>Decoder: Decodificador de las instrucciones</p>
 </li>
 </ul>
 <ul>
-<li><p>ROB&lt;-&gt;GPR*D162M4: Posición del ROB donde se está procesando un registro de propósito general (-1 si el registro no está asociado a ninguna entrada del ROB). Se muestra sólo un subconjunto de los elementos. Se pueden añadir o quitar elementos mediante los botones <img src="imgs/bm26_result.png" alt=""> y <img src="imgs/bm21_result.png" alt="">, indicándolos como una lista de números (o intervalos) separada por comas (ej. 2,12-18,20).</p>
+<li><p>ROB&lt;-&gt;GPR: Posición del ROB donde se está procesando un registro de propósito general (-1 si el registro no está asociado a ninguna entrada del ROB). Se muestra sólo un subconjunto de los elementos. Se pueden añadir o quitar elementos mediante los botones <img src="imgs/bm26_result.png" alt=""> y <img src="imgs/bm21_result.png" alt="">, indicándolos como una lista de números (o intervalos) separada por comas (ej. 2,12-18,20).</p>
 </li>
-<li><p>ROB&lt;-&gt;FPR*D162M5: Posición del ROB donde se está procesando un registro de punto flotante (-1 si el registro no está asociado a ninguna entrada del ROB). Se muestra sólo un subconjunto de los elementos. Se pueden añadir o quitar elementos mediante los botones <img src="imgs/bm27_result.png" alt=""> y <img src="imgs/bm21_result.png" alt="">, indicándolos como una lista de números (o intervalos) separada por comas (ej. 2,12-18,20).</p>
+<li><p>ROB&lt;-&gt;FPR: Posición del ROB donde se está procesando un registro de punto flotante (-1 si el registro no está asociado a ninguna entrada del ROB). Se muestra sólo un subconjunto de los elementos. Se pueden añadir o quitar elementos mediante los botones <img src="imgs/bm27_result.png" alt=""> y <img src="imgs/bm21_result.png" alt="">, indicándolos como una lista de números (o intervalos) separada por comas (ej. 2,12-18,20).</p>
 </li>
-<li><p>Predicción Salto*D162M6: Tabla de predicción de salto. Si vale F es que el salto que coincide con esa dirección no se toma; si vale V el salto se toma. Además de esto se muestra el valor binario de la entrada de la tabla entre paréntesis.</p>
+<li><p>Predicción Salto: Tabla de predicción de salto. Si vale F es que el salto que coincide con esa dirección no se toma; si vale V el salto se toma. Además de esto se muestra el valor binario de la entrada de la tabla entre paréntesis.</p>
 </li>
-<li><p>ROB*D162M7: Reorder Buffer. </p>
+<li><p>ROB: Reorder Buffer. </p>
 </li>
-<li><p>E.R.*D162M8: Estaciones de Reserva. </p>
+<li><p>E.R.: Estaciones de Reserva. </p>
 </li>
-<li><p>U.F.*D162M0: Unidades Funcionales. En la parte superior aparece el nombre de la UF. Hay tantas columnas como UF de ese tipo estén declaradas. Cada columna representa una UF. Las filas representan el pipeline de la UF.</p>
+<li><p>U.F.: Unidades Funcionales. En la parte superior aparece el nombre de la UF. Hay tantas columnas como UF de ese tipo estén declaradas. Cada columna representa una UF. Las filas representan el pipeline de la UF.</p>
 </li>
 </ul>
 <h2 id="Alto-y-ancho-de-los-componentes"><a href="#Alto-y-ancho-de-los-componentes" class="headerlink" title="Alto y ancho de los componentes"></a>Alto y ancho de los componentes</h2><p>El alto y ancho de la mayoría de los componentes puede modificarse poniendo el ratón sobre alguno de sus bordes y arrastrando manteniendo presionado el botón izquierdo del ratón. Tanto las ER como las UF pueden ocultarse haciendo doble clic sobre el nombre de la UF o ER correspondiente. Al hacer doble clic otra vez se volverá a mostrar.</p>
@@ -356,12 +356,12 @@
   </div>
   <div class='switch-page'>
     
-      <a class='previous' href='/docs/ventana-registros-memoria.html'><i class='fa fa-angle-left fa-3x'></i></a>
+      <a class='previous' href='/SIMDE-Docs/ventana-registros-memoria.html'><i class='fa fa-angle-left fa-3x'></i></a>
     
     
-      <a class='next' href='/docs/fichero-de-codigo-secuencial.html'><i class='fa fa-angle-right fa-3x'></i></a>
+      <a class='next' href='/SIMDE-Docs/fichero-de-codigo-secuencial.html'><i class='fa fa-angle-right fa-3x'></i></a>
     
   </div>
-    <script src='/docs/js/lang_select.js'></script>
+    <script src='/SIMDE-Docs/js/lang_select.js'></script>
 </body>
 </html>

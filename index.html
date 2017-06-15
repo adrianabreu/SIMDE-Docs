@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charSet='utf-8' />
-  <title>SIMDE - Bienvenido</title>
+  <title>SIMDE - Introduccion</title>
   <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
-  <link href='/docs/css/docs.css' rel='stylesheet'>
+  <link href='/SIMDE-Docs/css/docs.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -34,13 +34,7 @@
             
               <li>
                 
-                <a href='index.html' class='active'>Indice</a>
-                
-              </li>
-            
-              <li>
-                
-                <a href='introduccion.html'>Introducción</a>
+                <a href='index.html' class='active'>Introducción</a>
                 
               </li>
             
@@ -320,6 +314,12 @@
                 
               </li>
             
+              <li>
+                
+                <a href='codigos-ejemplo.html'>Códigos de ejemplo</a>
+                
+              </li>
+            
           </ul>
         </ul>
       
@@ -327,17 +327,40 @@
   </div>
   <div class='page'>
     <div class='page-content'>
-      <h1>Bienvenido</h1>
-      <p>Posible mensaje de bienvenida, quizas indice de las partes<br>más importantes…</p>
+      <h1>Introduccion</h1>
+      <h2 id="¿Que-es-SIMDE"><a href="#¿Que-es-SIMDE" class="headerlink" title="¿Qué es SIMDE?"></a>¿Qué es SIMDE?</h2><p>SIMDE es un simulador de Arquitecturas <strong>ILP</strong> (Instruction Level Parallelism) que incluye sus dos vertientes más características: </p>
+<ul>
+<li>Planificación dinámica: Cogiendo como ejemplo una máquina <strong>Superescalar</strong>.</li>
+<li>Planificación estática: Tomando como ejemplo una máquina <strong>VLIW</strong>.</li>
+</ul>
+<p>El objetivo del simulador es servir de herramienta para el apoyo docente en la enseñanza de estas arquitecturas. Para ello hace hincapié en los aspectos más destacables de las dos vertientes estudiadas, así como en sus diferencias.</p>
+<h2 id="¿Que-no-es-SIMDE"><a href="#¿Que-no-es-SIMDE" class="headerlink" title="¿Qué no es SIMDE?"></a>¿Qué no es SIMDE?</h2><p><strong>SIMDE</strong> no pretende ser un simulador realista de estas arquitecturas. En su diseño contiene un gran número de simplificaciones que intentan clarificar el funcionamiento de la máquina a costa de un mayor rigor técnico. Algunos de los componentes de las máquinas funcionan de manera imposible de implementar en la práctica (o de costes prohibitivos). </p>
+<p>El diseño de la máquina VLIW es extremadamente simple para resaltar aún más sus diferencias con la máquina Superescalar. Este diseño no tiene ninguna utilidad más que como máquina teórica.</p>
+<p><strong>SIMDE</strong> no es un compilador VLIW. Todas las optimizaciones del código y su posterior planificación las realiza el usario.</p>
+<h2 id="Funcionalidades"><a href="#Funcionalidades" class="headerlink" title="Funcionalidades"></a>Funcionalidades</h2><p>SIMDE permite:</p>
+<ul>
+<li><p>Cargar un único programa secuencial cada vez que servirá como base para la ejecución Superescalar o para diseñar un código VLIW.</p>
+</li>
+<li><p>Modificar los parámetros de las máquinas Superescalar y VLIW.</p>
+</li>
+<li><p>Crear, cargar o modificar un código de instrucciones largas que usar en la simulación VLIW. Además se añaden herramientas para facilitar la creación de este código, como el coloreado de bloques básicos o el chequeo automático del código creado para detectar inconsistencias.</p>
+</li>
+<li><p>Modificar el contenido de la memoria y registros.</p>
+</li>
+<li><p>Realizar simulaciones continuas o paso a paso de la máquina Superescalar, permitiendo el uso de breakpoints para detener la ejecución en un punto del código determinado.</p>
+</li>
+<li><p>Realizar simulaciones continuas o paso a paso de la máquina VLIW, permitiendo el uso de breakpoints para detener la ejecución en un punto del código determinado.</p>
+</li>
+</ul>
 
     </div>
   </div>
   <div class='switch-page'>
     
     
-      <a class='next' href='/docs/introduccion.html'><i class='fa fa-angle-right fa-3x'></i></a>
+      <a class='next' href='/SIMDE-Docs/instruction-level-paralelism.html'><i class='fa fa-angle-right fa-3x'></i></a>
     
   </div>
-    <script src='/docs/js/lang_select.js'></script>
+    <script src='/SIMDE-Docs/js/lang_select.js'></script>
 </body>
 </html>

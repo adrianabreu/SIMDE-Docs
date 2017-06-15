@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet='utf-8' />
+  <title>SIMDE - Códigos de ejemplo</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>  
+  <link href='/SIMDE-Docs/css/docs.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class='menu'>
+    <div class='logo'>
+      SIMDE
+    </div>
+   <div id="lang-select-wrap">
+      <select class="language" id="lang-select">
+        
+          <option value="es" selected>es</option>
+        
+          <option value="en">en</option>
+        
+      </select>
+    </div>
+    <nav class='menu-nav'>
+      
+        <ul class='nav'>
+        
+                
+                <span>Inicio</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='index.html'>Introducción</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='instruction-level-paralelism.html'>ILP</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Interfaz</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='menu-archivo.html'>Menú archivo</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ver.html'>Menú ver</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-configurar.html'>Menú configurar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ejecutar.html'>Menú ejecutar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ventana.html'>Menú ventana</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='menu-ayuda.html'>Menú ayuda</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='barra-de-herramientas-estandar.html'>Barra de herramientas estándar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='barra-de-herramientas-de-ejecucion.html'>Barra de herramientas de ejecución</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-de-instrucciones.html'>Ventana de instrucciones</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='configurar-parametros-superescalar.html'>Configurar párametros superescalar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-registros-memoria.html'>Ventana registros memoria</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ventana-simulacion.html'>Ventana de simulación</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Desarrollo</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='fichero-de-codigo-secuencial.html'>Fichero codigo secuencial</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='ejemplo-de-codigo-secuencial.html'>Ejemplo de código secuencial</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Características comunes</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='estructura-comun.html'>Estructura común</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='juego-de-instrucciones.html'>Juego de instrucciones</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='memoria.html'>Memoria</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='modos-de-direccionamiento.html'>Modos de direccionamiento</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='registros-de-proposito-general.html'>Registros de propósito general</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='registros-de-punto-flotante.html'>Registros de punto flotante</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='unidades-funcionales.html'>Unidades funcionales</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Máquina superescalar</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='maquina-superescalar.html'>Máquina superescalar</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='unidad-de-prebusqueda.html'>Unidad de prebúsqueda</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='decodificador.html'>Decodificador</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='rob-registros.html'>ROB <-> Registros</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='tabla-de-prediccion-de-salto.html'>Prediccion de salto</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='reorder-buffer.html'>Reorder Buffer</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='estaciones-de-reserva.html'>Estaciones de reserva</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='calculo-de-direcciones.html'>Cálculo de direcciones</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Acerca de</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='referencias.html'>Referencias</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='historial.html'>Historial</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='autor.html'>Contactar con el autor</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class='nav'>
+        
+                
+                <span>Extra</span>
+                                
+          <ul class='nav'>
+            
+              <li>
+                
+                <a href='bloques-basicos.html'>Bloques básicos</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='desenrollado-de-bucles.html'>Desenrollado de bucles</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='software-pipelining.html'>Software Pipelining</a>
+                
+              </li>
+            
+              <li>
+                
+                <a href='codigos-ejemplo.html' class='active'>Códigos de ejemplo</a>
+                
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+  </div>
+  <div class='page'>
+    <div class='page-content'>
+      <h1>Códigos de ejemplo</h1>
+      <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">// SIMDE v0.1</div><div class="line">// Autor: Ivan Castilla Rodriguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posicion 50 (R2) de memori tienes un vector de</div><div class="line">// 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posicion de memoria</div><div class="line">// 40). El resultado se coloca a partir de la posicion 70 (R3) de memoria.</div><div class="line">11</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	ADDI 	R2 R2 #1</div><div class="line">	ADDI	R3 R3 #1</div><div class="line">	BNE	R2 R5 LOOP</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">// SWMDE v1.0</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes</div><div class="line">// un vector de de 16 elementos y quieres sumar a cada elemento una cantidad </div><div class="line">// fija (en la posición de memoria 40). El resultado se coloca a partir de la </div><div class="line">// posición 70 (R3) de memoria.</div><div class="line">// Este fichero es el mismo bucle de &quot;bucle.pla&quot; pero desenrollado para que en </div><div class="line">// cada iteración se hagan dos pasadas del bucle</div><div class="line">//</div><div class="line">14</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	LF 	F2 1(R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	ADDF	F2 F2 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	SF	F2 1(R3)</div><div class="line">	ADDI 	R2 R2 #2</div><div class="line">	ADDI	R3 R3 #2</div><div class="line">	BNE	R2 R5 LOOP</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">// SWMDE v1.0</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes</div><div class="line">// un vector de de 16 elementos y quieres sumar a cada elemento una cantidad </div><div class="line">// fija (en la posición de memoria 40). El resultado se coloca a partir de la </div><div class="line">// posición 70 (R3) de memoria.</div><div class="line">// Este fichero es el mismo bucle de &quot;bucle.pla&quot; pero desenrollado para que en </div><div class="line">// cada iteración se hagan cuatro pasadas del bucle</div><div class="line">//</div><div class="line">20</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	LF 	F2 1(R2)</div><div class="line">	LF	F3 2(R2)</div><div class="line">	LF	F4 3(R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	ADDF	F2 F2 F0</div><div class="line">	ADDF	F3 F3 F0</div><div class="line">	ADDF	F4 F4 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	SF	F2 1(R3)</div><div class="line">	SF	F3 2(R3)</div><div class="line">	SF	F4 3(R3)</div><div class="line">	ADDI 	R2 R2 #4</div><div class="line">	ADDI	R3 R3 #4</div><div class="line">	BNE	R2 R5 LOOP</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">// SWMDE v1.0</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes</div><div class="line">// un vector de de 16 elementos y quieres sumar a cada elemento una cantidad </div><div class="line">// fija (en la posición de memoria 40). El resultado se coloca a partir de la </div><div class="line">// posición 70 (R3) de memoria.</div><div class="line">// Este fichero es el mismo bucle de &quot;bucle.pla&quot; pero desenrollado para que en </div><div class="line">// cada iteración se hagan ocho pasadas del bucle</div><div class="line">//</div><div class="line">32</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	LF 	F2 1(R2)</div><div class="line">	LF	F3 2(R2)</div><div class="line">	LF	F4 3(R2)</div><div class="line">	LF 	F5 4(R2)</div><div class="line">	LF 	F6 5(R2)</div><div class="line">	LF	F7 6(R2)</div><div class="line">	LF	F8 7(R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	ADDF	F2 F2 F0</div><div class="line">	ADDF	F3 F3 F0</div><div class="line">	ADDF	F4 F4 F0</div><div class="line">	ADDF	F5 F5 F0</div><div class="line">	ADDF	F6 F6 F0</div><div class="line">	ADDF	F7 F7 F0</div><div class="line">	ADDF	F8 F8 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	SF	F2 1(R3)</div><div class="line">	SF	F3 2(R3)</div><div class="line">	SF	F4 3(R3)</div><div class="line">	SF	F5 4(R3)</div><div class="line">	SF	F6 5(R3)</div><div class="line">	SF	F7 6(R3)</div><div class="line">	SF	F8 7(R3)</div><div class="line">	ADDI 	R2 R2 #8</div><div class="line">	ADDI	R3 R3 #8</div><div class="line">	BNE	R2 R5 LOOP</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">// SWMDE v0.1</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de</div><div class="line">// 5 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria</div><div class="line">// 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.</div><div class="line">// Adem�s se ha a�adido un segundo bucle para poder testear el Multiway branching de la VLWW.</div><div class="line">// Este segundo bucle multiplica los elementos del vector por el mismo valor</div><div class="line">18</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #5</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	SF		F1 (R3)</div><div class="line">	ADDI 	R2 R2 #1</div><div class="line">	ADDI	R3 R3 #1</div><div class="line">	BNE	R2 R5 LOOP</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R5 R3 #5</div><div class="line">LOOP2:</div><div class="line">	LF		F1 (R3)</div><div class="line">	MULTF	F1 F1 F0</div><div class="line">	SF		F1 (R3)</div><div class="line">	ADDI	R3 R3 #1</div><div class="line">	BNE	R3 R5 LOOP2</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">// SWMDE v0.1</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE que crea la sucesión An = (An-1 * 2) + 3 durante</div><div class="line">// 5 iteraciones y con A0 = 1</div><div class="line">// Comentarios: Este programa usa únicamente operaciones enteras y bucles sin hacer uso de </div><div class="line">// instrucciones de memoria ni de punto flotante</div><div class="line">8</div><div class="line">	ADDI	R1 R0 #1</div><div class="line">	ADDI	R2 R0 #2</div><div class="line">	ADDI	R3 R0 #0</div><div class="line">	ADDI	R4 R0 #5</div><div class="line">LOOP:</div><div class="line">	MULT	R5 R1 R2</div><div class="line">	ADDI	R1 R5 #3</div><div class="line">	ADDI	R3 R3 #1</div><div class="line">	BNE	R3 R4 LOOP</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">// SWMDE v0.1</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de</div><div class="line">// 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria</div><div class="line">// 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.</div><div class="line">// En este caso, al bucle se le ha aplicado una técnica de Software pipelining.</div><div class="line">18</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">// Código de inicialización</div><div class="line">	LF	F1 (R2)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	LF	F1 1(R2)</div><div class="line">	ADDI	R2 R2 #2</div><div class="line">LOOP:</div><div class="line">	SF	F2 (R3)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	LF	F1 (R2)</div><div class="line">	ADDI	R2 R2 #1</div><div class="line">	ADDI	R3 R3 #1</div><div class="line">	BNE	R2 R5 LOOP</div><div class="line">// Código de finalización</div><div class="line">	SF	F2 (R3)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	SF	F2 1(R3)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line">// SWMDE v0.1</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes un vector de</div><div class="line">// 16 elementos y quieres sumar a cada elemento una cantidad fija (en la posición de memoria</div><div class="line">// 40). El resultado se coloca a partir de la posición 70 (R3) de memoria.</div><div class="line">// En este caso, al bucle se le ha aplicado una técnica de Software pipelining., y después se</div><div class="line">// ha desenrollado para hacer dos iteraciones en cada pasada</div><div class="line">27</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">// Código de inicialización</div><div class="line">	LF	F1 (R2)</div><div class="line">	LF	F3 1(R2)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	ADDF	F4 F3 F0</div><div class="line">	LF	F1 2(R2)</div><div class="line">	LF	F3 3(R2)</div><div class="line">	ADDI	R2 R2 #4</div><div class="line">LOOP:</div><div class="line">	SF	F2 (R3)</div><div class="line">	SF	F4 1(R3)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	ADDF	F4 F3 F0</div><div class="line">	LF	F1 (R2)</div><div class="line">	LF	F3 1(R2)</div><div class="line">	ADDI	R2 R2 #2</div><div class="line">	ADDI	R3 R3 #2</div><div class="line">	BNE	R2 R5 LOOP</div><div class="line">// Código de finalización</div><div class="line">	SF	F2 (R3)</div><div class="line">	SF	F4 1(R3)</div><div class="line">	ADDF	F2 F1 F0</div><div class="line">	ADDF	F4 F3 F0</div><div class="line">	SF	F2 2(R3)</div><div class="line">	SF	F4 3(R3)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">10</div><div class="line">ADDI R1 R0 #3</div><div class="line">ADDI R2 R0 #2</div><div class="line">SLLV R3 R1 R2</div><div class="line">SRLV R4 R1 R2</div><div class="line">ADDI R5 R0 #11</div><div class="line">ADDI R6 R0 #6</div><div class="line">OR   R7 R5 R6</div><div class="line">AND  R8 R5 R6</div><div class="line">NOR  R9 R5 R6</div><div class="line">XOR  R10 R5 R6</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div></pre></td><td class="code"><pre><div class="line">// SWMDE v1.0</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes</div><div class="line">// un vector de de 16 elementos y quieres sumar a cada elemento una cantidad </div><div class="line">// fija (en la posición de memoria 40). El resultado se coloca a partir de la </div><div class="line">// posición 70 (R3) de memoria.</div><div class="line">// Este fichero es el mismo bucle de &quot;bucle.pla&quot; pero desenrollado totalmente </div><div class="line">// (sin bucle)</div><div class="line">//</div><div class="line">52</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	LF 	F1 (R2)</div><div class="line">	LF 	F2 1(R2)</div><div class="line">	LF	F3 2(R2)</div><div class="line">	LF	F4 3(R2)</div><div class="line">	LF 	F5 4(R2)</div><div class="line">	LF 	F6 5(R2)</div><div class="line">	LF	F7 6(R2)</div><div class="line">	LF	F8 7(R2)</div><div class="line">	LF 	F9 8(R2)</div><div class="line">	LF 	F10 9(R2)</div><div class="line">	LF	F11 10(R2)</div><div class="line">	LF	F12 11(R2)</div><div class="line">	LF 	F13 12(R2)</div><div class="line">	LF 	F14 13(R2)</div><div class="line">	LF	F15 14(R2)</div><div class="line">	LF	F16 15(R2)</div><div class="line">	ADDF	F1 F1 F0</div><div class="line">	ADDF	F2 F2 F0</div><div class="line">	ADDF	F3 F3 F0</div><div class="line">	ADDF	F4 F4 F0</div><div class="line">	ADDF	F5 F5 F0</div><div class="line">	ADDF	F6 F6 F0</div><div class="line">	ADDF	F7 F7 F0</div><div class="line">	ADDF	F8 F8 F0</div><div class="line">	ADDF	F9 F9 F0</div><div class="line">	ADDF	F10 F10 F0</div><div class="line">	ADDF	F11 F11 F0</div><div class="line">	ADDF	F12 F12 F0</div><div class="line">	ADDF	F13 F13 F0</div><div class="line">	ADDF	F14 F14 F0</div><div class="line">	ADDF	F15 F15 F0</div><div class="line">	ADDF	F16 F16 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	SF	F2 1(R3)</div><div class="line">	SF	F3 2(R3)</div><div class="line">	SF	F4 3(R3)</div><div class="line">	SF	F5 4(R3)</div><div class="line">	SF	F6 5(R3)</div><div class="line">	SF	F7 6(R3)</div><div class="line">	SF	F8 7(R3)</div><div class="line">	SF 	F9 8(R3)</div><div class="line">	SF 	F10 9(R3)</div><div class="line">	SF	F11 10(R3)</div><div class="line">	SF	F12 11(R3)</div><div class="line">	SF 	F13 12(R3)</div><div class="line">	SF 	F14 13(R3)</div><div class="line">	SF	F15 14(R3)</div><div class="line">	SF	F16 15(R3)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">7</div><div class="line">ADDI R2 R0 #3</div><div class="line">BGT R0 R2 ET1</div><div class="line">ADDI R3 R0 #2</div><div class="line">ET1:</div><div class="line">SUB R4 R3 R2</div><div class="line">BGT R2 R3 ET2</div><div class="line">SUB R5 R2 R3</div><div class="line">ET2:</div><div class="line">SUB R6 R2 R3</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div></pre></td><td class="code"><pre><div class="line">// Simde v1.2</div><div class="line">// Búsqueda en profundidad en un árbol.</div><div class="line">// Cada nodo se define a partir de una pos. de memoria A:</div><div class="line">// A[0] contiene el ID del nodo</div><div class="line">// A[1] contiene el nºmero de hijos N del nodo</div><div class="line">// A[2]-A[N+1] contienen las direcciones de memoria de los hijos</div><div class="line">// Puesto que no puede usarse recursividad se emplea una pila para almacenar los</div><div class="line">// valores. </div><div class="line">// La salida del programa es la lista de los ids de los nodos visitados. </div><div class="line">// </div><div class="line">// SIGNIFICADO DE LOS REGISTROS:</div><div class="line">// R1: Dirección del nodo padre del actual (-1 si el actual es la raíz)</div><div class="line">// R2: Dirección del nodo actual (la raíz está en 10)</div><div class="line">// R34: Dirección donde se coloca el resultado (400)</div><div class="line">// R33: Se usa como constante para almacenar un -1</div><div class="line">// R31: Puntero a la pila (500)</div><div class="line">// R3: Se usa para almacenar el ID del nodo actual</div><div class="line">// R4: Se usa para almacenar el nº de hijos del nodo actual</div><div class="line">//</div><div class="line">26</div><div class="line">	ADDI	R33 R0 #-1</div><div class="line">	ADDI	R34 R0 #400</div><div class="line">	ADDI	R1 R0 #-1</div><div class="line">	ADDI	R2 R0 #10</div><div class="line">// Inicialización de la pila</div><div class="line">	ADDI	R31 R0 #500</div><div class="line">// Bucle principal</div><div class="line">INI:</div><div class="line">	LW	R3 (R2)</div><div class="line">	LW	R4 1(R2)</div><div class="line">// Se guarda el nodo visitado</div><div class="line">	SW	R3 (R34)</div><div class="line">	ADDI	R34 R34 #1</div><div class="line">BUC:</div><div class="line">// Si no tiene hijos es un nodo hoja y no hay que recorrer nada</div><div class="line">	BEQ	R4 R0 HOJA</div><div class="line">// Se almacenan los valores del padre y nº de hijos en la pila</div><div class="line">	SW	R1 (R31)</div><div class="line">	SW	R4 1(R31)</div><div class="line">	ADDI	R31 R31 #2</div><div class="line">// Se sustituye el padre por el actual y se carga la dirección del hijo</div><div class="line">	ADDI	R1 R2 #0</div><div class="line">	ADD	R5 R2 R4</div><div class="line">	LW	R2 1(R5)</div><div class="line">// se vuelve al principio para visitar el hijo</div><div class="line">	BEQ	R0 R0 INI</div><div class="line">HOJA:</div><div class="line">// Si al llegar aquí se trata de la raíz es que hemos terminado de recorrer el árbol</div><div class="line">	BEQ	R1 R33 FIN</div><div class="line">// Se sustituye al nodo actual por el padre</div><div class="line">	ADDI	R2 R1 #0</div><div class="line">// Se saca de la pila el valor del padre y el nº de hijos que quedan por visitar</div><div class="line">	LW	R1 -2(R31)</div><div class="line">	LW	R4 -1(R31)</div><div class="line">	ADDI	R31 R31 #-2</div><div class="line">// Se decrementa en 1 el nºmero de hijos</div><div class="line">	ADDI	R4 R4 #-1</div><div class="line">// Esta línea no es necesaria, simplemente vuelve a poner en R3 el ID del nodo</div><div class="line">	LW	R3 (R2)</div><div class="line">	BEQ	R0 R0 BUC</div><div class="line">FIN:</div><div class="line">	// Operación nula: Es necesaria porque el simulador exige que todas las etiquetas</div><div class="line">	// vayan asociadas a una operación.</div><div class="line">	ADDI	R0 R0 #0</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line">// Simde v1.2</div><div class="line">// Recorre y suma</div><div class="line">// Este ejemplo recorre una lista de elementos ordenados por prioridad y suma el valor que </div><div class="line">// contienen ponderándolo con la posición en la lista. Cada elemento E de la lista se </div><div class="line">// compone de:</div><div class="line">// E[0] contiene el valor del elemento</div><div class="line">// E[1] contiene 1 si el valor es ponderado o 0 si el valor no se pondera</div><div class="line">// E[2] contiene la dirección del siguiente elemento (-1 para fin de la lista)</div><div class="line">//</div><div class="line">// Registros empleados:</div><div class="line">// - R1 apunta al comienzo de la lista (posición 10 de memoria)</div><div class="line">// - R2 es el elemento actual</div><div class="line">// - R3 apunta al resultado (posición 9)</div><div class="line">// - F0 va a contener el contador de la lista (hay que inicializarlo a 0)</div><div class="line">// - F1 contiene un 1 en flotante para incrementar el valor de 0</div><div class="line">// - F2 contiene el resultado parcial</div><div class="line">19</div><div class="line">	ADDI	R33 R0 #-1</div><div class="line">	ADDI	R1 R0 #10</div><div class="line">	ADDI	R2 R1 #0</div><div class="line">	ADDI	R3 R0 #9</div><div class="line">	SW	R0 (R3)</div><div class="line">	LF	F0 (R3)</div><div class="line">	LF	F2 (R3)</div><div class="line">// Inicializo a 1 F1. Para ello uso la posicion 1 de memoria como &quot;puente&quot;</div><div class="line">	ADDI	R10 R0 #1</div><div class="line">	SW	R10 1(R0)</div><div class="line">	LF	F1 1(R0)</div><div class="line">LOOP:</div><div class="line">	LF	F4 (R2)</div><div class="line">	LW	R4 1(R2)</div><div class="line">	BEQ	R4 R0 NOOP</div><div class="line">	MULTF	F4 F0 F4</div><div class="line">NOOP:</div><div class="line">	ADDF	F2 F2 F4</div><div class="line">	// Incremento el contador de la lista</div><div class="line">	ADDF	F0 F1 F0</div><div class="line">	LW	R2 2(R2)	</div><div class="line">	BNE	R2 R33 LOOP</div><div class="line">	SF	F2 (R3)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">// SWMDE v1.0</div><div class="line">// Autor: Iván Castilla Rodríguez</div><div class="line">// Utilidad: Programa de testeo de SWMDE</div><div class="line">// Comentarios: El programa presupone q en la posición 50 (R2) de memoria tienes</div><div class="line">// un vector de de 16 elementos y quieres sumar a cada elemento una cantidad </div><div class="line">// fija (en la posición de memoria 40). El resultado se coloca a partir de la </div><div class="line">// posición 70 (R3) de memoria.</div><div class="line">// Este fichero es el mismo bucle de &quot;bucle.pla&quot; pero desenrollado para que en </div><div class="line">// cada iteración se hagan dos pasadas del bucle</div><div class="line">//</div><div class="line">14</div><div class="line">	ADDI	R2 R0 #50</div><div class="line">	ADDI	R3 R0 #70</div><div class="line">	ADDI	R4 R0 #40</div><div class="line">	LF	F0 (R4)</div><div class="line">	ADDI	R5 R2 #16</div><div class="line">LOOP:</div><div class="line">	LF 	F1 (R2)</div><div class="line">	LF 	F2 1(R2)</div><div class="line">	ADFF	F1 F1 F0</div><div class="line">	ADDF	F2 F2 F0</div><div class="line">	SF	F1 (R3)</div><div class="line">	SF	F2 1(R3)</div><div class="line">	ADDI 	R2 R2 2</div><div class="line">	ADDI	R3 R3 #2</div><div class="line">	BNE	R2 R5 LOOP</div></pre></td></tr></table></figure>
+    </div>
+  </div>
+  <div class='switch-page'>
+    
+      <a class='previous' href='/SIMDE-Docs/software-pipelining.html'><i class='fa fa-angle-left fa-3x'></i></a>
+    
+    
+  </div>
+    <script src='/SIMDE-Docs/js/lang_select.js'></script>
+</body>
+</html>

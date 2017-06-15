@@ -27,13 +27,13 @@ El diseño de la máquina VLIW es extremadamente simple para resaltar aún más 
 
 SIMDE permite:
 
-* Cargar un único programa secuencial*D162K7 cada vez que servirá como base para la ejecución Superescalar o para diseñar un código VLIW.
+* Cargar un único programa secuencial cada vez que servirá como base para la ejecución Superescalar o para diseñar un código VLIW.
 
-* Modificar los parámetros de las máquinas Superescalar*D162K2 y VLIW*D162K3.
+* Modificar los parámetros de las máquinas Superescalar y VLIW.
 
-* Crear*D162K9, cargar*D162L0 o modificar*D162L1 un código de instrucciones largas que usar en la simulación VLIW. Además se añaden herramientas para facilitar la creación de este código, como el coloreado de bloques básicos*D162N8 o el chequeo automático*D162T5 del código creado para detectar inconsistencias.
+* Crear, cargar o modificar un código de instrucciones largas que usar en la simulación VLIW. Además se añaden herramientas para facilitar la creación de este código, como el coloreado de bloques básicos o el chequeo automático del código creado para detectar inconsistencias.
 
-* Modificar el contenido*D162K4 de la memoria y registros.
+* Modificar el contenido de la memoria y registros.
 
 * Realizar simulaciones continuas o paso a paso de la máquina Superescalar, permitiendo el uso de breakpoints para detener la ejecución en un punto del código determinado.
 

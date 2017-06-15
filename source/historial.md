@@ -4,7 +4,7 @@ lang: es
 id: historial
 title: Historial
 prev: how-it-works.html
-next: using.html
+next: autor.html
 ---
 
 ## v1.0 16/06/2017

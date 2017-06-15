@@ -36,7 +36,7 @@ The instructions are inspired in the MIPS IV repertory. We use the next nomencla
 		f. i.  LOOP1:, END:...
 
 
-The allowed instructions*D162L4 are:
+The allowed instructions are:
 * ADDI		Rn Rm #i
 * ADD		Rn Rm Rp
 * SUB		Rn Rm Rp

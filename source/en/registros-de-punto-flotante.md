@@ -14,5 +14,5 @@ They are named F0, F1, F2, ..., F63.
 
 ### Access
 
-The VLIW processor has an special access mode. "Reads" are carried out in the first half of a clock cycle and "writes" in the second one. Thus, WAR hazards are avoided. The Superscalar processor doesn't need this mechanism because the ROB*D162M7 makes this job.
+The VLIW processor has an special access mode. "Reads" are carried out in the first half of a clock cycle and "writes" in the second one. Thus, WAR hazards are avoided. The Superscalar processor doesn't need this mechanism because the ROB makes this job.
 

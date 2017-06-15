@@ -13,21 +13,21 @@ This window shows the basic structure of the superscalar processor.
 
 ### Components
 
-* Prefetch*D162M2: Prefetch unit.
+* Prefetch: Prefetch unit.
 
-* Decoder*D162M3: Decoder Unit
+* Decoder: Decoder Unit
 
-* ROB<->GPR*D162M4: This grid shows the ROB entry where a General Purpose Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using ![](imgs/bm26_result.png) and ![](imgs/bm21_result.png). The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). 
+* ROB<->GPR: This grid shows the ROB entry where a General Purpose Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using ![](imgs/bm26_result.png) and ![](imgs/bm21_result.png). The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). 
 
-* ROB<->FPR*D162M5: This grid shows the ROB entry where a Floating Point Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using ![](imgs/bm27_result.png) and ![](imgs/bm21_result.png). The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). 
+* ROB<->FPR: This grid shows the ROB entry where a Floating Point Register is being processed  (or -1 if the register is not associated to any ROB entry). Only a subset of elements is showed. You can hide or show elements by using ![](imgs/bm27_result.png) and ![](imgs/bm21_result.png). The selection is making by using a comma-separated list of numbers or intervals (for example: 2,10-15,20). 
 
-* Branch Prediction*D162M6: 2-bit Branch Prediction Table. Any entry p is allowed to take T or F as its value. A F value implies that any branch instruction with identifier i (i mod p = 0) will be not taken; the branch is taken if value is T. A binary value that represents the current state of the entry is also showed in parentheses.
+* Branch Prediction: 2-bit Branch Prediction Table. Any entry p is allowed to take T or F as its value. A F value implies that any branch instruction with identifier i (i mod p = 0) will be not taken; the branch is taken if value is T. A binary value that represents the current state of the entry is also showed in parentheses.
 
-* ROB*D162M7: Reorder Buffer. 
+* ROB: Reorder Buffer. 
 
-* RE*D162M8: Reservation Stations. 
+* RE: Reservation Stations. 
 
-* FU*D162M0: Functional Units. The name of the FU is showed on top. There are as many columns as FU declared of this type. Each column represents a FU. The rows represents the FU pipeline.
+* FU: Functional Units. The name of the FU is showed on top. There are as many columns as FU declared of this type. Each column represents a FU. The rows represents the FU pipeline.
 
 
 ### Adjust Component Height and Width

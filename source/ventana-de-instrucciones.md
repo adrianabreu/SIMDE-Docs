@@ -7,7 +7,7 @@ prev: barra-de-herramientas-de-ejecucion.html
 next: configurar-parametros-superescalar.html
 ---
 
-La Ventana de Instrucciones permite visualizar el código secuencial*D162K7 cargado desde un fichero.
+La Ventana de Instrucciones permite visualizar el código secuencial cargado desde un fichero.
 
 ![](imgs/bm16_result.png)
 Las instrucciones se muestran en orden secuencial.
@@ -31,4 +31,4 @@ Si se hace doble clic en el título con el nombre del fichero, se ocultará est�
 
 ### Bloques básicos
 
-Para colorear los Bloques Básicos*D162N8 del código basta con ir al menú Ver => Bloques Básicos.
+Para colorear los Bloques Básicos del código basta con ir al menú Ver => Bloques Básicos.

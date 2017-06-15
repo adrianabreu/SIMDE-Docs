@@ -8,7 +8,7 @@ next: en/estaciones-de-reserva.html
 ---
 
 This structure allows the instructions to execute out of order but to commit in order. ROB holds the results of instructions that have finished execution but have not commited, preventing any irrevocable action.
-The ROB has as many entries as the amount of entries from all the REs*D162M8.
+The ROB has as many entries as the amount of entries from all the REs.
 
 
 ### Fields

@@ -19,8 +19,8 @@ Both processors, Superscalar and VLIW, have been designed by using a shared basi
 
 ### Common Elements
 
-* Memory*D162L5.
+* Memory.
 
-* General Purpose Registers*D162L8 (GPR).
+* General Purpose Registers (GPR).
 
-* Floating Point Registers*D162L9 (FPR).
+* Floating Point Registers (FPR).

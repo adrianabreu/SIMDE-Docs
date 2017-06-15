@@ -8,7 +8,7 @@ next: en/calculo-de-direcciones.html
 ---
 
 
-This structure holds the instructions while they are waiting for their operands or they are executing in the corresponding FU*D162M0. 
+This structure holds the instructions while they are waiting for their operands or they are executing in the corresponding FU. 
 
 Let T be a specific type of FU. There is an associated RE[T] for each type of FU. Let N[T] be the number of FU[T] and let P[T] be the number of pipeline stages of this FU. The number of entries of RE[T] is computed by using the following expression: N[T] * P[T] + 1
 

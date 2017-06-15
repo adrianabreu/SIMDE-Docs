@@ -21,8 +21,8 @@ Tanto la máquina Superescalar como la VLIW diseñadas para este simulador manti
 
 ## Elementos Comunes
 
-* Memoria*D162L5.
+* Memoria.
 
-* Registros de Propósito General*D162L8 (GPR).
+* Registros de Propósito General (GPR).
 
-* Registros de Punto Flotante*D162L9 (FPR).
+* Registros de Punto Flotante (FPR).

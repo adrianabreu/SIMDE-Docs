@@ -12,7 +12,7 @@ Para ver los Registros de Propósito General, los de Punto Flotante o la Memoria
 
 1. Ir al menú Ejecutar => Maquina Superescalar/VLIW => Componentes y elegir el componente correspondiente.
 
-2. Desde la Barra de Herramientas de Ejecución*D162K0 usar el cuadro combinado de componentes.
+2. Desde la Barra de Herramientas de Ejecución usar el cuadro combinado de componentes.
 
 
 ![Ventana registro](imgs/bm19.png)

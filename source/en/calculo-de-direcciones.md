@@ -7,4 +7,4 @@ prev: en/estaciones-de-reserva.html
 next: en/referencias.html
 ---
 
-The memory address ALU is a special FU*D162M0 of the Superscalar processor that computes the memory address of a LOAD or STORE instruction once the base register is available.
+The memory address ALU is a special FU of the Superscalar processor that computes the memory address of a LOAD or STORE instruction once the base register is available.

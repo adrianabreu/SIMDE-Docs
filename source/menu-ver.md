@@ -12,7 +12,7 @@ Contiene las opciones de visualización del programa.
 
 ### Bloques Básicos
 
-Habilita la opción de colorear los bloques básicos*D162N8 en el código.
+Habilita la opción de colorear los bloques básicos en el código.
 
 
 ### Barras de Herramientas

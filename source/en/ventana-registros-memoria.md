@@ -11,7 +11,7 @@ There are two different ways for showing General Purpose or Floating Point Regis
 
 1. Click on menu Execute => Components and select a component.
 
-2. Use the components combo box from the Execution Tool Bar*D162K0.
+2. Use the components combo box from the Execution Tool Bar.
 
 
 ![Ventana registro](imgs/bm18_result.png) 

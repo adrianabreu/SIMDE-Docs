@@ -12,7 +12,7 @@ Contiene las opciones de configuración de las máquinas.
 
 ### Configurar Superescalar
 
-Abre la ventana de Configuración de la Máquina Superescalar*D162K2, con la que se pueden modificar sus parámetros más importantes.
+Abre la ventana de Configuración de la Máquina Superescalar, con la que se pueden modificar sus parámetros más importantes.
 
 
 ### Opciones

@@ -16,10 +16,10 @@ Existen dos claras vertientes para manejar la emisión múltiple (Multiple Issue
 
 ## Planificación Dinámica de Instrucciones
 
-El hardware se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se emplea una ejecución fuera de orden (out_of_order). Las máquinas Superescalares*D162M1 suelen emplear esta técnica. 
+El hardware se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se emplea una ejecución fuera de orden (out_of_order). Las máquinas Superescalares suelen emplear esta técnica. 
 
 
 ## Planificación Estática de Instrucciones
 
-El compilador se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se consigue una gran simplificación del hardware. Emplea ejecución en orden (in_order). Esta es la técnica básica en las máquinas VLIW*D162N0.
+El compilador se encarga de reordenar las instrucciones para aprovechar el paralelismo, con lo que se consigue una gran simplificación del hardware. Emplea ejecución en orden (in_order). Esta es la técnica básica en las máquinas VLIW.
 

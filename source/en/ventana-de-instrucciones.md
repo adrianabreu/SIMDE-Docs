@@ -7,7 +7,7 @@ prev: en/barra-de-herramientas-de-ejecucion.html
 next: en/configurar-parametros-superescalar.html
 ---
 
-The Instruction Window shows the sequential code*D162K7 loaded from a file.
+The Instruction Window shows the sequential code loaded from a file.
 
 ![](imgs/bm16_result.png)
 The instructions are showed in sequential order.
@@ -30,4 +30,4 @@ Double-click on the window title (where file name is showed) to hide the window.
 
 ### Basic Blocks
 
-To differentiate code Basic Blocks*D162N8 go to View => Basic Blocks.
+To differentiate code Basic Blocks go to View => Basic Blocks.

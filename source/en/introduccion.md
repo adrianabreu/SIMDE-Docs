@@ -10,8 +10,8 @@ next: en/instruction-level-paralelism.html
 ##  What's SIMDE?
 
 SIMDE is a simulator for supporting teaching of **ILP** (Instruction Level Parallelism) Architectures. It includes two characteristic flavours of ILP architectures: 
-* Dynamic Scheduling: Taking a  Superscalar*D162M1 processor as an example.
-* Static Scheduling: Taking a VLIW*D162N0 processor as an example.
+* Dynamic Scheduling: Taking a  Superscalar processor as an example.
+* Static Scheduling: Taking a VLIW processor as an example.
 
 The simulator places emphasis on similarities and differences between superscalar and VLIW processors because of its educative purposes.
 
@@ -27,11 +27,11 @@ The VLIW design is extremely simple to incide in the differences with the supers
 
 SIMDE allows to:
 
-* Load a single sequential code*D162K7 each time. This code will be used as basis for superscalar executions and design of VLIW codes.
+* Load a single sequential code each time. This code will be used as basis for superscalar executions and design of VLIW codes.
 
 * Modify processor parameters for both Superscalar and VLIW processors.
 
-* Create*D162K9, load*D162L0 or modify a (very) long instruction code that can be used in VLIW simulations. Different tools (like basic blocks*D162N8 coloring or a code automatic-checking*D162T5 for detecting inconsistences) have been added in order to simplify the creation of VLIW codes.
+* Create, load or modify a (very) long instruction code that can be used in VLIW simulations. Different tools (like basic blocks coloring or a code automatic-checking for detecting inconsistences) have been added in order to simplify the creation of VLIW codes.
 
 * Modify contents from registers and memory.
 

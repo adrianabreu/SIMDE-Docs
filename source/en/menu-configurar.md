@@ -12,12 +12,12 @@ This menu contains utilities to configure processor parameters.
 
 ## Superscalar Configuration
 
-Use this menu item to show the Superscalar Configuration*D162K2 window, that allows to modify the main parameters of the superscalar processor.
+Use this menu item to show the Superscalar Configuration window, that allows to modify the main parameters of the superscalar processor.
 
 
 ## VLIW Configuration
 
-Use this menu item to show the VLIW Configuration*D162K3 window, that allows to modify the main parameters of the VLIW processor.
+Use this menu item to show the VLIW Configuration window, that allows to modify the main parameters of the VLIW processor.
 
 
 ## Memory-Registers data
@@ -32,8 +32,8 @@ This menu item allows to load/save the contents of memory and registers from/to 
 
 This menu contains some useful options in order to design a VLIW code:
 
-* Create New VLIW Code*D162K9: Use this menu item to create a blank VLIW code.
-* Load VLIW Code...*D162L0: Use this menu item to load a VLIW code from a file.
+* Create New VLIW Code: Use this menu item to create a blank VLIW code.
+* Load VLIW Code...: Use this menu item to load a VLIW code from a file.
 
 
 ## Options

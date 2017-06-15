@@ -4,6 +4,7 @@ lang: en
 id: software-pipelining
 title: Software Pipelining
 prev: en/desenrollado-de-bucles.html
+next: en/codigos-ejemplo.html
 ---
 
 ```

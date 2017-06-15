@@ -1,9 +1,9 @@
 ---
 layout: default
 lang: en
-id: example-codes
-title: Sample codes
-prev: software-pipelining.html
+id: codigos-ejemplo
+title: Example codes
+prev: en/software-pipelining.html
 ---
 
 ```

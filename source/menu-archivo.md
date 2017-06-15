@@ -7,11 +7,6 @@ prev: instruction-level-paralelism.html
 next: menu-ver.html
 ---
 
-## Abrir...
+## Cargar...
 
-Permite abrir un fichero con código secuencial.
-
-
-## Salir
-
-Termina la ejecución del programa.
+Permite abrir un código secuencial.

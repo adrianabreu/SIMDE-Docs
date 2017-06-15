@@ -7,16 +7,13 @@ prev: en/referencias.html
 next: en/bloques-basicos.html
 ---
 
-SIMDE can contain errors. When I developed my software, I wasn't thinking in that things you have probed when using it.
+The original version of this documentation and the application it references have been made by Iván Castilla Rodríguez.
 
-You can contact me for any suggestion or commentary on ivan@cyc.ull.es!EF[ivan@cyc.ull.es](mailto:ivan@cyc.ull.es?subject="SIMDE: Comentarios y sugerencias").
+The new version of this application and this documentation have 
+been made by Adrián Abreu González.
 
---------------------
+If you have any suggestion about this application, please contact us 
+at:
 
-Iván Castilla Rodríguez
-
-Grupo de Computadoras y Control
-Universidad de La Laguna
-La Laguna, Tenerife
-Canary Island
-Spain
+[alu0100601398@ull.edu.es](alu0100601398@ull.edu.es)
+[icasrod@ull.edu.es](icasrod@ull.edu.es)

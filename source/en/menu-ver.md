@@ -12,15 +12,15 @@ It contains the visualization options of the application.
 
 ## Basic Blocks
 
-Use this menu item to colour the basic blocks*D162N8 in the code window.
+Use this menu item to colour the basic blocks in the code window.
 
 
 ## Tool Bars
 
 Use this menu item to hide/show the tool bars of the application. There are two different tool bars:
 
-* The Standard*D162T9 tool bar, which contains basic options.
-* The Execution*D162K0 tool bar, for using in simulations.
+* The Standard tool bar, which contains basic options.
+* The Execution tool bar, for using in simulations.
 
 
 ## Sequential code

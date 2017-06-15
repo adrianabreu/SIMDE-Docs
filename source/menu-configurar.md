@@ -15,19 +15,6 @@ Contiene las opciones de configuración de las máquinas.
 Abre la ventana de Configuración de la Máquina Superescalar*D162K2, con la que se pueden modificar sus parámetros más importantes.
 
 
-### Configurar VLIW
-
-Abre la ventana de Configuración de la Máquina VLIW*D162K3, con la que se pueden modificar sus parámetros más importantes.
-
-
-### Instrucciones VLIW
-
-Contiene los menús para diseñar un código VLIW:
-
-* Crear Nuevo Programa VLIW*D162K9: Permite crear un nuevo código VLIW
-* Cargar Programa VLIW...*D162L0: Permite cargar un código VLIW desde un fichero
-
-
 ### Opciones
 
 Contiene varias opciones del programa:

@@ -9,15 +9,6 @@ next: menu-ventana.html
 
 Contiene todas las herramientas para realizar las simulaciones.
 
-
-### Seleccionar Máquina
-
-Permite escoger la máquina con la que quiere realizarse la simulación.
-
-1. Seleccionar Superescalar
-2. Seleccionar VLIW
-
-
 ### Iniciar
 
 Permite comenzar la ejecución continua de la simulación. Si se pulsa mientras está ejecutandose otra simulación, se ofrece la opción de comenzar desde el principio. La ejecución continua sólo se detiene al llegar al final del programa o si encuentra un Break Point.
@@ -36,8 +27,3 @@ Permite comenzar (continuar) una ejecución paso a paso. Cada vez que se hace cl
 ### Parar
 
 Detiene una ejecución poniendo el reloj a 0.
-
-
-### Componentes
-
-Permite visualizar y modificar los componentes comunes de la máquina: registros y memoria.

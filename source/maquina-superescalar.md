@@ -18,7 +18,7 @@ Características
 3. Emplea predicción dinámica de saltos.
 
 
-	Componentes
+### Componentes
 
 * **Prefetch**: Unidad de prebúsqueda de instrucciones.
 
@@ -36,4 +36,4 @@ Características
 
 * **U.F.**: Unidades Funcionales
 
-* **ALU de cálculo de direcciones: Unidad para calcular las direcciones de las instrucciones de memoria
+* **ALU de cálculo de direcciones**: Unidad para calcular las direcciones de las instrucciones de memoria

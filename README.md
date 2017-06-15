@@ -5,4 +5,4 @@ superescalares SIMDE. Esta documentación pretende servir como material
 de referencia para el uso de la aplicación.
 
 ## Versión en vivo
-http://adrianabreu.github.io/simde_docs
+[http://adrianabreu.com/SIMDE-Docs/](http://adrianabreu.com/SIMDE-Docs/)

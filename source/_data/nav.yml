@@ -2,9 +2,6 @@
   titleEn: Begin
   items:
   - id: index
-    titleEs: Indice
-    titleEn: Index
-  - id: introduccion
     titleEs: Introducción
     titleEn: Introduction
   - id: instruction-level-paralelism
